@@ -299,7 +299,7 @@
           var isiPad= navigator.userAgent.match(/iPad/i)!= null;if (isiPad){if ($('html').width()< 1360){$('#Viewport').attr("content", "initial-scale=0.775, maximum-scale=0.775, minimum-scale=0.775, user-scalable=no");} else{$('#Viewport').attr("content", "initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no");}}
          </script>
          <script>
-          var ip= "50.112.53.214";
+          var ip= "151.37.149.166";
          </script>
          <script>
           !function (n, e, o, r, i){ if (!e){ e= e||{}, window.permutive= e, e.q=[], e.config= i||{}, e.config.projectId= o, e.config.apiKey= r, e.config.environment= e.config.environment|| "production"; for (var t=["addon", "identify", "track", "trigger", "query", "segment", "segments", "ready", "on", "once", "user", "consent"], c= 0; c< t.length; c++){ var f= t[c]; e[f]= function (n){ return function (){ var o= Array.prototype.slice.call(arguments, 0); e.q.push({ functionName: n, arguments: o})}}(f)}}}(document, window.permutive, "e8d8c747-8675-4477-9233-4c8cc64f86d7", "ce6f3d8c-1a3c-4dec-95d5-5182609cff8a",{});
@@ -3504,15 +3504,15 @@ function GetParamValueFromUrlStr(url, paramName) {
         }
         
         
-        if("503,3007,506,507" != "")
+        if("503,506,507,3007" != "")
         {
-            DataLayerManager.dynamicSubjectIds = "503,3007,506,507";
+            DataLayerManager.dynamicSubjectIds = "503,506,507,3007";
         }
          
                
-        if("Management Studies,Development Studies,Change Management,Organisational Development" != "")
+        if("Management Studies,Change Management,Organisational Development,Development Studies" != "")
         {
-            DataLayerManager.dynamicSubjectNames = "Management Studies,Development Studies,Change Management,Organisational Development";
+            DataLayerManager.dynamicSubjectNames = "Management Studies,Change Management,Organisational Development,Development Studies";
         }
         
                 
@@ -3683,8 +3683,8 @@ function GetParamValueFromUrlStr(url, paramName) {
                 DataLayerManager.dynamicBpIdpId = "28340";
                 DataLayerManager.dynamicDisciplineIds = "5,30";
                 DataLayerManager.dynamicDisciplineNames = "Business & Management,Politics & Government";
-                DataLayerManager.dynamicSubjectIds = "503,3007,506,507";
-                DataLayerManager.dynamicSubjectNames = "Management Studies,Development Studies,Change Management,Organisational Development";
+                DataLayerManager.dynamicSubjectIds = "503,506,507,3007";
+                DataLayerManager.dynamicSubjectNames = "Management Studies,Change Management,Organisational Development,Development Studies";
                 DataLayerManager.dynamicStudyTerms = "September";
                 DataLayerManager.dynamicStudyTypes = "Full Time,Part Time,On Campus";
                 DataLayerManager.dynamicLocationCountryName = "United Kingdom";
@@ -3706,8 +3706,8 @@ function GetParamValueFromUrlStr(url, paramName) {
         function SendDataLayerEmailEnquiry() {
             DataLayerManager.dynamicDisciplineIds = "5,30";
                 DataLayerManager.dynamicDisciplineNames = "Business & Management,Politics & Government";
-                DataLayerManager.dynamicSubjectIds = "503,3007,506,507";
-                DataLayerManager.dynamicSubjectNames = "Management Studies,Development Studies,Change Management,Organisational Development";
+                DataLayerManager.dynamicSubjectIds = "503,506,507,3007";
+                DataLayerManager.dynamicSubjectNames = "Management Studies,Change Management,Organisational Development,Development Studies";
                 DataLayerManager.dynamicStudyTerms = "September";
                 DataLayerManager.dynamicStudyTypes = "Full Time,Part Time,On Campus";
                 DataLayerManager.dynamicLocationCountryName = "United Kingdom";
@@ -4885,30 +4885,30 @@ function GetParamValueFromUrlStr(url, paramName) {
           Based on your current search criteria we thought you might be interested in these
          </p>
          <p class="suggestions__content lh-small">
-          <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/management-and-leadership-in-health-and-social-care-practice-development-pgcert/?i294d1980c66438" title="View Management &amp; Leadership in Health &amp; Social Care: Practice Development - PGCert at Institute of Health, University of Cumbria">
-           Management &amp; Leadership in Health &amp; Social Care: Practice Development - PGCert
+          <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/leadership-for-sustainable-rural-development-msc/?i195d2126c23824" title="View Leadership for Sustainable Rural Development (MSc) at School of Biological Sciences, Queen’s University Belfast">
+           Leadership for Sustainable Rural Development (MSc)
           </a>
           <br/>
-          <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/university-of-cumbria/" title="View all Masters Degrees at University of Cumbria">
-           University of Cumbria
+          <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/queens-university-belfast/" title="View all Masters Degrees at Queen’s University Belfast">
+           Queen’s University Belfast
           </a>
          </p>
          <p class="suggestions__content lh-small">
-          <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/master-of-arts-organisation-development-change-and-leadership-self-financed-mumbai-campus/?i3729d8877c69504" title="View Master of Arts (Organisation Development, Change and Leadership) (Self Financed) - Mumbai Campus at Department of Social Sciences, TATA Institute of Social Sciences">
-           Master of Arts (Organisation Development, Change and Leadership) (Self Financed) - Mumbai Campus
+          <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/leadership-for-sustainable-development-msc/?i195d2126c23825" title="View Leadership for Sustainable Development (MSc) at School of Biological Sciences, Queen’s University Belfast">
+           Leadership for Sustainable Development (MSc)
           </a>
           <br/>
-          <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/tata-institute-of-social-sciences/" title="View all Masters Degrees at TATA Institute of Social Sciences">
-           TATA Institute of Social Sciences
+          <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/queens-university-belfast/" title="View all Masters Degrees at Queen’s University Belfast">
+           Queen’s University Belfast
           </a>
          </p>
          <p class="suggestions__content lh-small">
-          <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/diploma-in-leadership-development/?i272d4706c69675" title="View Diploma in Leadership Development at UCD College of Business, University College Dublin">
-           Diploma in Leadership Development
+          <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/professional-development-culturally-adaptive-leadership/?i1689d6854c34354" title="View Professional Development: Culturally Adaptive Leadership at Postgraduate Work-based Learning, Professional Development International">
+           Professional Development: Culturally Adaptive Leadership
           </a>
           <br/>
-          <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/university-college-dublin/" title="View all Masters Degrees at University College Dublin">
-           University College Dublin
+          <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/professional-development-international/" title="View all Masters Degrees at Professional Development International">
+           Professional Development International
           </a>
          </p>
         </div>
@@ -7169,7 +7169,7 @@ $(document).ready(function () {
           cl.responsive();
     });
   </script>
-  <script crossorigin="anonymous" data-cf-beacon='{"rayId":"8241eadcae926d89","b":1,"version":"2023.10.0","token":"110e19a3aef14d8eb7fd8a26c8a127fd"}' defer="" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317">
+  <script crossorigin="anonymous" data-cf-beacon='{"rayId":"82427552fafda25e","b":1,"version":"2023.10.0","token":"110e19a3aef14d8eb7fd8a26c8a127fd"}' defer="" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317">
   </script>
  </body>
 </html>
@@ -7195,7 +7195,7 @@ $(document).ready(function () {
         });
       }
 
-    var objPerm = [{"date":null,"location":{"continent":null,"country":{"name":"United Kingdom","isocode":null},"city":{"name":"London"},"cityRegion":null,"distance":null},"discipline":{"names":["Business & Management","Politics & Government"],"ids":[5,30]},"event":null,"user":null,"category":{"previousType":null,"type":"FeaturedCourseDetails"},"study":{"terms":["September"],"types":["Full Time","Part Time","On Campus"]},"page":{"jumpLink":null,"hopCount":null,"name":null,"id":"28340"},"programme":{"types":["MSc"]},"subject":{"names":["Management Studies","Development Studies","Change Management","Organisational Development"],"ids":[503,3007,506,507]},"institution":{"primary":{"dept":{"name":"Faculty of Social Science & Public Policy","id":2510},"name":"King’s College London","id":132}},"search":null,"interaction":null,"labels":null,"association":{"instprofile":true,"openday":true,"scholarship":false,"studentprofile":false,"talktostudent":false,"video":true}}];
+    var objPerm = [{"date":null,"location":{"continent":null,"country":{"name":"United Kingdom","isocode":null},"city":{"name":"London"},"cityRegion":null,"distance":null},"discipline":{"names":["Business & Management","Politics & Government"],"ids":[5,30]},"event":null,"user":null,"category":{"previousType":null,"type":"FeaturedCourseDetails"},"study":{"terms":["September"],"types":["Full Time","Part Time","On Campus"]},"page":{"jumpLink":null,"hopCount":null,"name":null,"id":"28340"},"programme":{"types":["MSc"]},"subject":{"names":["Management Studies","Change Management","Organisational Development","Development Studies"],"ids":[503,506,507,3007]},"institution":{"primary":{"dept":{"name":"Faculty of Social Science & Public Policy","id":2510},"name":"King’s College London","id":132}},"search":null,"interaction":null,"labels":null,"association":{"instprofile":true,"openday":true,"scholarship":false,"studentprofile":false,"talktostudent":false,"video":true}}];
     var objString = JSON.stringify(objPerm);
 
     var sI = setInterval(function () {

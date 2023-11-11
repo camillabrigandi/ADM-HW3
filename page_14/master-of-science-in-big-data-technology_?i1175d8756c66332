@@ -299,7 +299,7 @@
           var isiPad= navigator.userAgent.match(/iPad/i)!= null;if (isiPad){if ($('html').width()< 1360){$('#Viewport').attr("content", "initial-scale=0.775, maximum-scale=0.775, minimum-scale=0.775, user-scalable=no");} else{$('#Viewport').attr("content", "initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no");}}
          </script>
          <script>
-          var ip= "50.112.53.214";
+          var ip= "151.37.149.166";
          </script>
          <script>
           !function (n, e, o, r, i){ if (!e){ e= e||{}, window.permutive= e, e.q=[], e.config= i||{}, e.config.projectId= o, e.config.apiKey= r, e.config.environment= e.config.environment|| "production"; for (var t=["addon", "identify", "track", "trigger", "query", "segment", "segments", "ready", "on", "once", "user", "consent"], c= 0; c< t.length; c++){ var f= t[c]; e[f]= function (n){ return function (){ var o= Array.prototype.slice.call(arguments, 0); e.q.push({ functionName: n, arguments: o})}}(f)}}}(document, window.permutive, "e8d8c747-8675-4477-9233-4c8cc64f86d7", "ce6f3d8c-1a3c-4dec-95d5-5182609cff8a",{});
@@ -7404,30 +7404,30 @@ function GetParamValueFromUrlStr(url, paramName) {
            Based on your current search criteria we thought you might be interested in these
           </p>
           <p class="suggestions__content lh-small">
-           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/master-of-science-in-big-data-analytics/?i92d7727c71694" title="View Master of Science in Big Data Analytics at Online, Flexible and Professional Development, Atlantic Technological University">
-            Master of Science in Big Data Analytics
-           </a>
-           <br/>
-           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/atlantic-technological-university/" title="View all Masters Degrees at Atlantic Technological University">
-            Atlantic Technological University
-           </a>
-          </p>
-          <p class="suggestions__content lh-small">
-           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/master-of-science-in-big-data-analytics-and-artificial-intelligence/?i92d7727c71695" title="View Master of Science in Big Data Analytics and Artificial Intelligence at Online, Flexible and Professional Development, Atlantic Technological University">
-            Master of Science in Big Data Analytics and Artificial Intelligence
-           </a>
-           <br/>
-           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/atlantic-technological-university/" title="View all Masters Degrees at Atlantic Technological University">
-            Atlantic Technological University
-           </a>
-          </p>
-          <p class="suggestions__content lh-small">
            <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/big-data-science-and-technology-msc/?i285d7565c52845" title="View Big Data Science and Technology - MSc at Faculty of Engineering &amp; Digital Technologies, University of Bradford">
             Big Data Science and Technology - MSc
            </a>
            <br/>
            <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/university-of-bradford/" title="View all Masters Degrees at University of Bradford">
             University of Bradford
+           </a>
+          </p>
+          <p class="suggestions__content lh-small">
+           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/msc-big-data-and-data-science-technology-with-advanced-practice/?i181d5304c65781" title="View MSc Big Data and Data Science Technology with Advanced Practice at Postgraduate degrees, Northumbria University London">
+            MSc Big Data and Data Science Technology with Advanced Practice
+           </a>
+           <br/>
+           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/northumbria-university-london/" title="View all Masters Degrees at Northumbria University London">
+            Northumbria University London
+           </a>
+          </p>
+          <p class="suggestions__content lh-small">
+           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/master-of-science-and-technology-in-data-and-economics-for-public-policy/?i1858d8517c70390" title="View Master of Science and Technology in Data and Economics for Public Policy at Masters Programmes, Ecole Polytechnique">
+            Master of Science and Technology in Data and Economics for Public Policy
+           </a>
+           <br/>
+           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/ecole-polytechnique/" title="View all Masters Degrees at Ecole Polytechnique">
+            Ecole Polytechnique
            </a>
           </p>
          </div>
@@ -11113,7 +11113,7 @@ $(document).ready(function () {
           cl.responsive();
     });
   </script>
-  <script crossorigin="anonymous" data-cf-beacon='{"rayId":"8241f10e49216d91","b":1,"version":"2023.10.0","token":"110e19a3aef14d8eb7fd8a26c8a127fd"}' defer="" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317">
+  <script crossorigin="anonymous" data-cf-beacon='{"rayId":"824276c528d8fc81","b":1,"version":"2023.10.0","token":"110e19a3aef14d8eb7fd8a26c8a127fd"}' defer="" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317">
   </script>
  </body>
 </html>

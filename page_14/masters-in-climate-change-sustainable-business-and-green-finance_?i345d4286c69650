@@ -299,7 +299,7 @@
           var isiPad= navigator.userAgent.match(/iPad/i)!= null;if (isiPad){if ($('html').width()< 1360){$('#Viewport').attr("content", "initial-scale=0.775, maximum-scale=0.775, minimum-scale=0.775, user-scalable=no");} else{$('#Viewport').attr("content", "initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no");}}
          </script>
          <script>
-          var ip= "50.112.53.214";
+          var ip= "151.37.149.166";
          </script>
          <script>
           !function (n, e, o, r, i){ if (!e){ e= e||{}, window.permutive= e, e.q=[], e.config= i||{}, e.config.projectId= o, e.config.apiKey= r, e.config.environment= e.config.environment|| "production"; for (var t=["addon", "identify", "track", "trigger", "query", "segment", "segments", "ready", "on", "once", "user", "consent"], c= 0; c< t.length; c++){ var f= t[c]; e[f]= function (n){ return function (){ var o= Array.prototype.slice.call(arguments, 0); e.q.push({ functionName: n, arguments: o})}}(f)}}}(document, window.permutive, "e8d8c747-8675-4477-9233-4c8cc64f86d7", "ce6f3d8c-1a3c-4dec-95d5-5182609cff8a",{});
@@ -3491,28 +3491,28 @@ function GetParamValueFromUrlStr(url, paramName) {
 
         
 
-        if("14,5,13" != "")
+        if("5,13,14" != "")
         {
-            DataLayerManager.dynamicDisciplineIds = "14,5,13";
+            DataLayerManager.dynamicDisciplineIds = "5,13,14";
         }
 
         
         
-        if("Finance,Business & Management,Environmental Sciences" != "")
+        if("Business & Management,Environmental Sciences,Finance" != "")
         {
-            DataLayerManager.dynamicDisciplineNames = "Finance,Business & Management,Environmental Sciences";
+            DataLayerManager.dynamicDisciplineNames = "Business & Management,Environmental Sciences,Finance";
         }
         
         
-        if("1407,505,1310,503,506,501,539" != "")
+        if("501,503,505,506,539,1310,1407" != "")
         {
-            DataLayerManager.dynamicSubjectIds = "1407,505,1310,503,506,501,539";
+            DataLayerManager.dynamicSubjectIds = "501,503,505,506,539,1310,1407";
         }
          
                
-        if("Finance - Other,Project Management,Climatology - Climate & Climate Change,Management Studies,Change Management,Business,Business & Management - Other" != "")
+        if("Business,Management Studies,Project Management,Change Management,Business & Management - Other,Climatology - Climate & Climate Change,Finance - Other" != "")
         {
-            DataLayerManager.dynamicSubjectNames = "Finance - Other,Project Management,Climatology - Climate & Climate Change,Management Studies,Change Management,Business,Business & Management - Other";
+            DataLayerManager.dynamicSubjectNames = "Business,Management Studies,Project Management,Change Management,Business & Management - Other,Climatology - Climate & Climate Change,Finance - Other";
         }
         
                 
@@ -3681,10 +3681,10 @@ function GetParamValueFromUrlStr(url, paramName) {
                 DataLayerManager.dynamicDId = "4286";
                 DataLayerManager.dynamicDepartmentName = "Henley Business School";
                 DataLayerManager.dynamicBpIdpId = "69650";
-                DataLayerManager.dynamicDisciplineIds = "14,5,13";
-                DataLayerManager.dynamicDisciplineNames = "Finance,Business & Management,Environmental Sciences";
-                DataLayerManager.dynamicSubjectIds = "1407,505,1310,503,506,501,539";
-                DataLayerManager.dynamicSubjectNames = "Finance - Other,Project Management,Climatology - Climate & Climate Change,Management Studies,Change Management,Business,Business & Management - Other";
+                DataLayerManager.dynamicDisciplineIds = "5,13,14";
+                DataLayerManager.dynamicDisciplineNames = "Business & Management,Environmental Sciences,Finance";
+                DataLayerManager.dynamicSubjectIds = "501,503,505,506,539,1310,1407";
+                DataLayerManager.dynamicSubjectNames = "Business,Management Studies,Project Management,Change Management,Business & Management - Other,Climatology - Climate & Climate Change,Finance - Other";
                 DataLayerManager.dynamicStudyTerms = "September";
                 DataLayerManager.dynamicStudyTypes = "Full Time";
                 DataLayerManager.dynamicLocationCountryName = "United Kingdom";
@@ -3704,10 +3704,10 @@ function GetParamValueFromUrlStr(url, paramName) {
 
         //EmailEnquiry
         function SendDataLayerEmailEnquiry() {
-            DataLayerManager.dynamicDisciplineIds = "14,5,13";
-                DataLayerManager.dynamicDisciplineNames = "Finance,Business & Management,Environmental Sciences";
-                DataLayerManager.dynamicSubjectIds = "1407,505,1310,503,506,501,539";
-                DataLayerManager.dynamicSubjectNames = "Finance - Other,Project Management,Climatology - Climate & Climate Change,Management Studies,Change Management,Business,Business & Management - Other";
+            DataLayerManager.dynamicDisciplineIds = "5,13,14";
+                DataLayerManager.dynamicDisciplineNames = "Business & Management,Environmental Sciences,Finance";
+                DataLayerManager.dynamicSubjectIds = "501,503,505,506,539,1310,1407";
+                DataLayerManager.dynamicSubjectNames = "Business,Management Studies,Project Management,Change Management,Business & Management - Other,Climatology - Climate & Climate Change,Finance - Other";
                 DataLayerManager.dynamicStudyTerms = "September";
                 DataLayerManager.dynamicStudyTypes = "Full Time";
                 DataLayerManager.dynamicLocationCountryName = "United Kingdom";
@@ -6940,7 +6940,7 @@ function GetParamValueFromUrlStr(url, paramName) {
       <div class="page-content container px-0">
        <div class="row pr-lg-4">
         <div class="col-24 col-md-16 col-lg-17 course-content">
-         <a class="text-dark text-decoration-none" href="/masters-degrees/institution/345/university-of-reading/#student-chat" onclick="faustat.addstats('MAS', 294, 69650);DataLayerManager.ChatToStudent(345, 'University of Reading', 'unibuddy', 0,'False', '14,5,13' , 'Finance,Business &amp; Management,Environmental Sciences',  '1407,505,1310,503,506,501,539',  'Finance - Other,Project Management,Climatology - Climate &amp; Climate Change,Management Studies,Change Management,Business,Business &amp; Management - Other',  'September',  'Full Time',  'United Kingdom',  '',  'MSc', '');ga('send', 'event', 'InstID=345', 'Course Listing Institution Profile Referral (Button)', 'CID=69650#', {'nonInteraction': 1});" target="_blank">
+         <a class="text-dark text-decoration-none" href="/masters-degrees/institution/345/university-of-reading/#student-chat" onclick="faustat.addstats('MAS', 294, 69650);DataLayerManager.ChatToStudent(345, 'University of Reading', 'unibuddy', 0,'False', '5,13,14' , 'Business &amp; Management,Environmental Sciences,Finance',  '501,503,505,506,539,1310,1407',  'Business,Management Studies,Project Management,Change Management,Business &amp; Management - Other,Climatology - Climate &amp; Climate Change,Finance - Other',  'September',  'Full Time',  'United Kingdom',  '',  'MSc', '');ga('send', 'event', 'InstID=345', 'Course Listing Institution Profile Referral (Button)', 'CID=69650#', {'nonInteraction': 1});" target="_blank">
           <div class="row course-sections__student-chat--outer bg-white border rounded shadow-sm my-4 mx-0 p-3">
            <div class="col-24 px-0 course-sections__student-chat course-sections__student-chat--tap course-sections__student-chat--new">
             <h4 class="course-sections__title">
@@ -7091,8 +7091,8 @@ function GetParamValueFromUrlStr(url, paramName) {
            </i>
            <p class="suggestions__link--text mb-0 small">
             Check out our other Masters Courses in
-            <a class="text-success text-decoration-none" href="/masters-degrees/finance/">
-             Finance
+            <a class="text-success text-decoration-none" href="/masters-degrees/business-and-management/">
+             Business &amp; Management
             </a>
            </p>
           </div>
@@ -9407,7 +9407,7 @@ $(document).ready(function () {
           cl.responsive();
     });
   </script>
-  <script crossorigin="anonymous" data-cf-beacon='{"rayId":"8241f156c82d6d8b","b":1,"version":"2023.10.0","token":"110e19a3aef14d8eb7fd8a26c8a127fd"}' defer="" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317">
+  <script crossorigin="anonymous" data-cf-beacon='{"rayId":"8242778aba051946","b":1,"version":"2023.10.0","token":"110e19a3aef14d8eb7fd8a26c8a127fd"}' defer="" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317">
   </script>
  </body>
 </html>
@@ -9433,7 +9433,7 @@ $(document).ready(function () {
         });
       }
 
-    var objPerm = [{"date":null,"location":{"continent":null,"country":{"name":"United Kingdom","isocode":null},"city":{"name":"Reading"},"cityRegion":null,"distance":null},"discipline":{"names":["Finance","Business & Management","Environmental Sciences"],"ids":[14,5,13]},"event":null,"user":null,"category":{"previousType":null,"type":"FeaturedCourseDetails"},"study":{"terms":["September"],"types":["Full Time"]},"page":{"jumpLink":null,"hopCount":null,"name":null,"id":"69650"},"programme":{"types":["MSc"]},"subject":{"names":["Project Management","Climatology - Climate & Climate Change","Management Studies","Change Management","Business"],"ids":[505,1310,503,506,501]},"institution":{"primary":{"dept":{"name":"Henley Business School","id":4286},"name":"University of Reading","id":345}},"search":null,"interaction":null,"labels":null,"association":{"instprofile":true,"openday":true,"scholarship":false,"studentprofile":false,"talktostudent":false,"video":true}}];
+    var objPerm = [{"date":null,"location":{"continent":null,"country":{"name":"United Kingdom","isocode":null},"city":{"name":"Reading"},"cityRegion":null,"distance":null},"discipline":{"names":["Business & Management","Environmental Sciences","Finance"],"ids":[5,13,14]},"event":null,"user":null,"category":{"previousType":null,"type":"FeaturedCourseDetails"},"study":{"terms":["September"],"types":["Full Time"]},"page":{"jumpLink":null,"hopCount":null,"name":null,"id":"69650"},"programme":{"types":["MSc"]},"subject":{"names":["Business","Management Studies","Project Management","Change Management","Climatology - Climate & Climate Change"],"ids":[501,503,505,506,1310]},"institution":{"primary":{"dept":{"name":"Henley Business School","id":4286},"name":"University of Reading","id":345}},"search":null,"interaction":null,"labels":null,"association":{"instprofile":true,"openday":true,"scholarship":false,"studentprofile":false,"talktostudent":false,"video":true}}];
     var objString = JSON.stringify(objPerm);
 
     var sI = setInterval(function () {

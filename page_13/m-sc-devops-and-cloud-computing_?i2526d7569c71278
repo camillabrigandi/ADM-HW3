@@ -299,7 +299,7 @@
           var isiPad= navigator.userAgent.match(/iPad/i)!= null;if (isiPad){if ($('html').width()< 1360){$('#Viewport').attr("content", "initial-scale=0.775, maximum-scale=0.775, minimum-scale=0.775, user-scalable=no");} else{$('#Viewport').attr("content", "initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no");}}
          </script>
          <script>
-          var ip= "50.112.53.214";
+          var ip= "151.37.149.166";
          </script>
          <script>
           !function (n, e, o, r, i){ if (!e){ e= e||{}, window.permutive= e, e.q=[], e.config= i||{}, e.config.projectId= o, e.config.apiKey= r, e.config.environment= e.config.environment|| "production"; for (var t=["addon", "identify", "track", "trigger", "query", "segment", "segments", "ready", "on", "once", "user", "consent"], c= 0; c< t.length; c++){ var f= t[c]; e[f]= function (n){ return function (){ var o= Array.prototype.slice.call(arguments, 0); e.q.push({ functionName: n, arguments: o})}}(f)}}}(document, window.permutive, "e8d8c747-8675-4477-9233-4c8cc64f86d7", "ce6f3d8c-1a3c-4dec-95d5-5182609cff8a",{});
@@ -7088,30 +7088,30 @@ function GetParamValueFromUrlStr(url, paramName) {
            Based on your current search criteria we thought you might be interested in these
           </p>
           <p class="suggestions__content lh-small">
+           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/cloud-computing-msc/?i177d3189c2638" title="View Cloud Computing - MSc at School of Computing, Newcastle University">
+            Cloud Computing - MSc
+           </a>
+           <br/>
+           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/newcastle-university/" title="View all Masters Degrees at Newcastle University">
+            Newcastle University
+           </a>
+          </p>
+          <p class="suggestions__content lh-small">
+           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/software-engineering-with-cloud-computing-msc/?i393d8904c5706" title="View Software Engineering with Cloud Computing MSc at School of Science and Technology, City, University of London">
+            Software Engineering with Cloud Computing MSc
+           </a>
+           <br/>
+           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/city-university-of-london/" title="View all Masters Degrees at City, University of London">
+            City, University of London
+           </a>
+          </p>
+          <p class="suggestions__content lh-small">
            <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/advanced-computer-science-cloud-computing-msc/?i321d8435c26516" title="View Advanced Computer Science (Cloud Computing) - MSc at School of Computing, University of Leeds">
             Advanced Computer Science (Cloud Computing) - MSc
            </a>
            <br/>
            <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/university-of-leeds/" title="View all Masters Degrees at University of Leeds">
             University of Leeds
-           </a>
-          </p>
-          <p class="suggestions__content lh-small">
-           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/mba-in-cloud-computing/?i1612d6775c66943" title="View MBA in Cloud Computing at MBA Programs - Munich Campus, EU Business School (Munich Campus)">
-            MBA in Cloud Computing
-           </a>
-           <br/>
-           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/eu-business-school-munich-campus/" title="View all Masters Degrees at EU Business School (Munich Campus)">
-            EU Business School (Munich Campus)
-           </a>
-          </p>
-          <p class="suggestions__content lh-small">
-           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/cloud-computing-and-internet-of-things/?i3577d8648c65533" title="View Cloud Computing and Internet of Things at Masters programmes, The Polytechnic University of Timisoara ">
-            Cloud Computing and Internet of Things
-           </a>
-           <br/>
-           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/the-polytechnic-university-of-timisoara/" title="View all Masters Degrees at The Polytechnic University of Timisoara ">
-            The Polytechnic University of Timisoara
            </a>
           </p>
          </div>
@@ -9373,7 +9373,7 @@ $(document).ready(function () {
           cl.responsive();
     });
   </script>
-  <script crossorigin="anonymous" data-cf-beacon='{"rayId":"8241eaf03818b3a7","b":1,"version":"2023.10.0","token":"110e19a3aef14d8eb7fd8a26c8a127fd"}' defer="" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317">
+  <script crossorigin="anonymous" data-cf-beacon='{"rayId":"8242758fbe331e5d","b":1,"version":"2023.10.0","token":"110e19a3aef14d8eb7fd8a26c8a127fd"}' defer="" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317">
   </script>
  </body>
 </html>

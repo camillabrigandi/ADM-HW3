@@ -3504,15 +3504,15 @@ function GetParamValueFromUrlStr(url, paramName) {
         }
         
         
-        if("1122,3204,1121" != "")
+        if("1121,1122,3204" != "")
         {
-            DataLayerManager.dynamicSubjectIds = "1122,3204,1121";
+            DataLayerManager.dynamicSubjectIds = "1121,1122,3204";
         }
          
                
-        if("Education - Other,Youth Work,Academic Studies in Education - Other" != "")
+        if("Academic Studies in Education - Other,Education - Other,Youth Work" != "")
         {
-            DataLayerManager.dynamicSubjectNames = "Education - Other,Youth Work,Academic Studies in Education - Other";
+            DataLayerManager.dynamicSubjectNames = "Academic Studies in Education - Other,Education - Other,Youth Work";
         }
         
                 
@@ -3683,8 +3683,8 @@ function GetParamValueFromUrlStr(url, paramName) {
                 DataLayerManager.dynamicBpIdpId = "55983";
                 DataLayerManager.dynamicDisciplineIds = "11,32";
                 DataLayerManager.dynamicDisciplineNames = "Education,Social Work";
-                DataLayerManager.dynamicSubjectIds = "1122,3204,1121";
-                DataLayerManager.dynamicSubjectNames = "Education - Other,Youth Work,Academic Studies in Education - Other";
+                DataLayerManager.dynamicSubjectIds = "1121,1122,3204";
+                DataLayerManager.dynamicSubjectNames = "Academic Studies in Education - Other,Education - Other,Youth Work";
                 DataLayerManager.dynamicStudyTerms = "September";
                 DataLayerManager.dynamicStudyTypes = "Full Time,Part Time,On Campus";
                 DataLayerManager.dynamicLocationCountryName = "Ireland";
@@ -3706,8 +3706,8 @@ function GetParamValueFromUrlStr(url, paramName) {
         function SendDataLayerEmailEnquiry() {
             DataLayerManager.dynamicDisciplineIds = "11,32";
                 DataLayerManager.dynamicDisciplineNames = "Education,Social Work";
-                DataLayerManager.dynamicSubjectIds = "1122,3204,1121";
-                DataLayerManager.dynamicSubjectNames = "Education - Other,Youth Work,Academic Studies in Education - Other";
+                DataLayerManager.dynamicSubjectIds = "1121,1122,3204";
+                DataLayerManager.dynamicSubjectNames = "Academic Studies in Education - Other,Education - Other,Youth Work";
                 DataLayerManager.dynamicStudyTerms = "September";
                 DataLayerManager.dynamicStudyTypes = "Full Time,Part Time,On Campus";
                 DataLayerManager.dynamicLocationCountryName = "Ireland";
@@ -7155,12 +7155,12 @@ function GetParamValueFromUrlStr(url, paramName) {
            </a>
           </p>
           <p class="suggestions__content lh-small">
-           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/youth-arts-and-sports-education-msocsc/?i271d8457c61939" title="View Youth Arts and Sports Education MSocSc at College of Arts, Celtic Studies and Social Sciences, University College Cork">
-            Youth Arts and Sports Education MSocSc
+           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/education-childhood-and-youth-studies-pgdip-pgcert-ma/?i188d6134c41358" title="View Education (Childhood and Youth Studies) - PgDip/PgCert/MA at School of Education, Oxford Brookes University">
+            Education (Childhood and Youth Studies) - PgDip/PgCert/MA
            </a>
            <br/>
-           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/university-college-cork/" title="View all Masters Degrees at University College Cork">
-            University College Cork
+           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/oxford-brookes-university/" title="View all Masters Degrees at Oxford Brookes University">
+            Oxford Brookes University
            </a>
           </p>
          </div>
@@ -9422,7 +9422,7 @@ $(document).ready(function () {
           cl.responsive();
     });
   </script>
-  <script crossorigin="anonymous" data-cf-beacon='{"rayId":"824203238f04b3a4","b":1,"version":"2023.10.0","token":"110e19a3aef14d8eb7fd8a26c8a127fd"}' defer="" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317">
+  <script crossorigin="anonymous" data-cf-beacon='{"rayId":"82427dd04a3da25f","b":1,"version":"2023.10.0","token":"110e19a3aef14d8eb7fd8a26c8a127fd"}' defer="" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317">
   </script>
  </body>
 </html>

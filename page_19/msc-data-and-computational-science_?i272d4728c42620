@@ -3504,15 +3504,15 @@ function GetParamValueFromUrlStr(url, paramName) {
         }
         
         
-        if("2510,2507,2508" != "")
+        if("2507,2508,2510" != "")
         {
-            DataLayerManager.dynamicSubjectIds = "2510,2507,2508";
+            DataLayerManager.dynamicSubjectIds = "2507,2508,2510";
         }
          
                
-        if("Applied Statistics,Computational Mathematics,Operational Research" != "")
+        if("Computational Mathematics,Operational Research,Applied Statistics" != "")
         {
-            DataLayerManager.dynamicSubjectNames = "Applied Statistics,Computational Mathematics,Operational Research";
+            DataLayerManager.dynamicSubjectNames = "Computational Mathematics,Operational Research,Applied Statistics";
         }
         
                 
@@ -3683,8 +3683,8 @@ function GetParamValueFromUrlStr(url, paramName) {
                 DataLayerManager.dynamicBpIdpId = "42620";
                 DataLayerManager.dynamicDisciplineIds = "25";
                 DataLayerManager.dynamicDisciplineNames = "Mathematics";
-                DataLayerManager.dynamicSubjectIds = "2510,2507,2508";
-                DataLayerManager.dynamicSubjectNames = "Applied Statistics,Computational Mathematics,Operational Research";
+                DataLayerManager.dynamicSubjectIds = "2507,2508,2510";
+                DataLayerManager.dynamicSubjectNames = "Computational Mathematics,Operational Research,Applied Statistics";
                 DataLayerManager.dynamicStudyTerms = "September";
                 DataLayerManager.dynamicStudyTypes = "Full Time,On Campus";
                 DataLayerManager.dynamicLocationCountryName = "Ireland";
@@ -3693,7 +3693,7 @@ function GetParamValueFromUrlStr(url, paramName) {
                 DataLayerManager.dynamicProductId = ""; 
 
                 
-                dataLayerPagePropertyType = "featuredprogramme";
+                dataLayerPagePropertyType = "standardProgramme";
                 
 
 
@@ -3706,8 +3706,8 @@ function GetParamValueFromUrlStr(url, paramName) {
         function SendDataLayerEmailEnquiry() {
             DataLayerManager.dynamicDisciplineIds = "25";
                 DataLayerManager.dynamicDisciplineNames = "Mathematics";
-                DataLayerManager.dynamicSubjectIds = "2510,2507,2508";
-                DataLayerManager.dynamicSubjectNames = "Applied Statistics,Computational Mathematics,Operational Research";
+                DataLayerManager.dynamicSubjectIds = "2507,2508,2510";
+                DataLayerManager.dynamicSubjectNames = "Computational Mathematics,Operational Research,Applied Statistics";
                 DataLayerManager.dynamicStudyTerms = "September";
                 DataLayerManager.dynamicStudyTypes = "Full Time,On Campus";
                 DataLayerManager.dynamicLocationCountryName = "Ireland";
@@ -4131,6 +4131,50 @@ function GetParamValueFromUrlStr(url, paramName) {
     </div>
    </div>
   </div>
+  <div style="display: block;">
+   <div class="border-bottom" id="billboard">
+    <div class="container" id="billboard-inner">
+     <div class="row">
+      <div class="zoneOuter" id="zone209355127" style="height:160px;">
+      </div>
+      <script>
+       (function (r, d, u) {var s = d.createElement(r); s.async = true; s.setAttribute('data-cfasync', false); u += '&cb=' + Date.now() + Math.random(); s.src = u; var n = d.getElementsByTagName(r)[0]; n.parentNode.insertBefore(s, n); })('script', document, '//engine.findamasters.com/?209355127');
+      </script>
+      <script>
+       function abb_impr_0() { }
+      </script>
+      <script>
+       $(document).ready(function() { DataLayerAdImpression('billboard', 0, '', ''); });
+      </script>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script>
+   $(document).ready(function(){ $('.notification-banner-remove').click(function(){ fau.cookies.setSubValue('FauAlertBanner', 'closed', true, 1); $('.notification-banner').remove(); }); });
+  </script>
+  <div class="col-24 notification-banner border-top border-bottom" style="text-align: center; background-color: #FEE823 !important; padding-top: 10px; padding-bottom: 10px;">
+   <div class="notification-banner-inner mr-4 mr-lg-0">
+    <a class="d-none d-md-block iconname" href="https://www.findamasters.com/signups/?ct=1950" style="color: #333333" target="_blank">
+     <i class="fas fa-user-graduate">
+     </i>
+     Don't miss our weekly Masters newsletter |
+     <span class="font-weight-bold">
+      Sign up now
+     </span>
+    </a>
+    <a class="d-inline-block d-md-none small" href="https://www.findamasters.com/signups/?ct=1950" style="color: #333333" target="_blank">
+     <i class="fas fa-user-graduate">
+     </i>
+     Don't miss our weekly Masters newsletter |
+     <span class="font-weight-bold" style="display: inline-block;">
+      Sign up now
+     </span>
+    </a>
+   </div>
+   <i class="fa-regular fa-xmark notification-banner-remove pointer" onclick="fau.cookies.setSubValue('FauAlertBanner', 'closed', true, 1); $('.notification-banner').remove();" style="color: white; right: 10px; top: 10px; position: absolute;cursor: pointer;">
+   </i>
+  </div>
   <div class="sitewide-outer container-fluid">
    <div class="sitewide-holder container">
    </div>
@@ -4271,7 +4315,7 @@ function GetParamValueFromUrlStr(url, paramName) {
          </div>
          <div class="d-block d-md-none course-buttons col-24 px-0 py-3">
           <div class="course-sidebar__buttons row m-0">
-           <a class="course-sidebar__button btn btn-outline-success btn-block course-sidebar__button--main rounded-pill webLink" href="/common/clickCount.aspx?theid=42620&amp;type=287&amp;did=4728&amp;url=https%3a%2f%2fhub.ucd.ie%2fusis%2f!W_HU_MENU.P_PUBLISH%3fp_tag%3dPROG%26MAJR%3dT306" onclick="faustat.addstats('MAS',287,42620);PermutiveInsights.linkClickEvent(this.innerHTML, 'link', this.getAttribute('href'));ga('send', 'event', 'InstID=272', 'Course Listing Referral (Footer Action Bar)', 'CID=42620#', {'nonInteraction': 1});;DataLayerRefExternalFull(272, 'University College Dublin', '4728', '42620', 'UCD School of Mathematics and Statistics', dataLayerPagePropertyType, '');dataLayer.push({'event': 'referral_clicks', 'click_type': 'Course Page &gt; Institution Website Button', 'InstID': '272', 'CID': '42620', 'type': '287', });;" rel="nofollow" target="_blank">
+           <a class="course-sidebar__button btn btn-outline-success btn-block course-sidebar__button--main rounded-pill webLink" href="/common/clickCount.aspx?theid=42620&amp;type=211&amp;did=4728&amp;url=https%3a%2f%2fhub.ucd.ie%2fusis%2f!W_HU_MENU.P_PUBLISH%3fp_tag%3dPROG%26MAJR%3dT306" onclick="faustat.addstats('MAS',211,42620);PermutiveInsights.linkClickEvent(this.innerHTML, 'link', this.getAttribute('href'));ga('send', 'event', 'InstID=272', 'Course Listing Referral (Footer Action Bar)', 'CID=42620#', {'nonInteraction': 1});;DataLayerRefExternalFull(272, 'University College Dublin', '4728', '42620', 'UCD School of Mathematics and Statistics', dataLayerPagePropertyType, '');dataLayer.push({'event': 'referral_clicks', 'click_type': 'Course Page &gt; Institution Website Button', 'InstID': '272', 'CID': '42620', 'type': '211', });;" rel="nofollow" target="_blank">
             Visit Institution website
            </a>
            <a class="course-sidebar__button course-sidebar__button--main btn btn-success btn-block email emailLink rounded-pill" data-email-addr="e44e647578067d4b02efa86d600f3b099da1a2a0ad1492cfe5ce26dd4d5367fe" data-email-name="University College Dublin" data-stattype="3" href="javascript:void(0)">
@@ -4306,7 +4350,7 @@ function GetParamValueFromUrlStr(url, paramName) {
           </a>
          </div>
          <div class="mobile-logo__container col-xs-24 d-block d-md-none">
-          <a class="logoLink" href="/common/clickCount.aspx?theid=42620&amp;type=286&amp;did=4728&amp;url=https%3a%2f%2fhub.ucd.ie%2fusis%2f!W_HU_MENU.P_PUBLISH%3fp_tag%3dPROG%26MAJR%3dT306" onclick="DataLayerRefExternalFull(272, 'University College Dublin', '4728', '42620', 'UCD School of Mathematics and Statistics', dataLayerPagePropertyType, '');" target="_blank" title="Click here to visit the UCD School of Mathematics and Statistics website">
+          <a class="logoLink" href="/common/clickCount.aspx?theid=42620&amp;type=3&amp;did=4728&amp;url=https%3a%2f%2fhub.ucd.ie%2fusis%2f!W_HU_MENU.P_PUBLISH%3fp_tag%3dPROG%26MAJR%3dT306" onclick="DataLayerRefExternalFull(272, 'University College Dublin', '4728', '42620', 'UCD School of Mathematics and Statistics', dataLayerPagePropertyType, '');" target="_blank" title="Click here to visit the UCD School of Mathematics and Statistics website">
            <img alt="UCD School of Mathematics and Statistics Logo" class="img-fluid bg-white p-3 border rounded shadow-sm" src="https://fau-res.cloudinary.com/image/upload/f_gif/common/institutions/logos/Institutions/PID272.gif" style="max-height: 80px;"/>
           </a>
          </div>
@@ -4506,7 +4550,7 @@ function GetParamValueFromUrlStr(url, paramName) {
            </p>
            <script>
             function descReadMoreInit() {
-                                                faustat.addstatsarray('MAS', 289, 42620);
+                                                faustat.addstatsarray('MAS', 244, 42620);
                                         ga('send', 'event', 'InstID=' + 272, 'Course Listing Full Description Viewed', 'CID=' + 42620 + '#', { 'nonInteraction': 1 });
                                             }
            </script>
@@ -4533,7 +4577,7 @@ function GetParamValueFromUrlStr(url, paramName) {
           </h2>
           <div class="course-sections__content">
            <p>
-            <a class="noWrap inheritFont" href="https://www.findamasters.com/common/clickCount.aspx?theid=42620&amp;type=288&amp;DID=4728&amp;url=https%3a%2f%2fhub.ucd.ie%2fusis%2f!W_HU_MENU.P_PUBLISH%3fp_tag%3dPROG%26MAJR%3dT306" onclick="ga('send', 'event', 'DeptID=4728', 'Referral: Text Hyperlinks', 'CID=42620#', {'nonInteraction': 1});faustat.addstats('MAS',288,42620);PermutiveInsights.linkClickEvent(this.innerHTML, 'link', this.getAttribute('href'));DataLayerRefExternalFull(272, 'University College Dublin', 4728, '42620', 'UCD School of Mathematics and Statistics', '');" rel="nofollow" target="_blank">
+            <a class="noWrap inheritFont" href="https://www.findamasters.com/common/clickCount.aspx?theid=42620&amp;type=25&amp;DID=4728&amp;url=https%3a%2f%2fhub.ucd.ie%2fusis%2f!W_HU_MENU.P_PUBLISH%3fp_tag%3dPROG%26MAJR%3dT306" onclick="ga('send', 'event', 'DeptID=4728', 'Referral: Text Hyperlinks', 'CID=42620#', {'nonInteraction': 1});faustat.addstats('MAS',25,42620);PermutiveInsights.linkClickEvent(this.innerHTML, 'link', this.getAttribute('href'));DataLayerRefExternalFull(272, 'University College Dublin', 4728, '42620', 'UCD School of Mathematics and Statistics', '');" rel="nofollow" target="_blank">
              Please see the university website for further information on fees for this course.
             </a>
            </p>
@@ -4555,7 +4599,7 @@ function GetParamValueFromUrlStr(url, paramName) {
           </div>
           <div class="course-sidebar__inner">
            <div class="course-sidebar__logo d-none d-md-block text-center">
-            <a class="logoLink float-left-xs" href="/common/clickCount.aspx?theid=42620&amp;type=286&amp;did=4728&amp;url=https%3a%2f%2fhub.ucd.ie%2fusis%2f!W_HU_MENU.P_PUBLISH%3fp_tag%3dPROG%26MAJR%3dT306" target="_blank" title="Click here to visit the UCD School of Mathematics and Statistics website">
+            <a class="logoLink float-left-xs" href="/common/clickCount.aspx?theid=42620&amp;type=3&amp;did=4728&amp;url=https%3a%2f%2fhub.ucd.ie%2fusis%2f!W_HU_MENU.P_PUBLISH%3fp_tag%3dPROG%26MAJR%3dT306" target="_blank" title="Click here to visit the UCD School of Mathematics and Statistics website">
              <img alt="UCD School of Mathematics and Statistics Logo" class="img-fluid" src="https://fau-res.cloudinary.com/image/upload/f_gif/common/institutions/logos/Institutions/PID272.gif">
              </img>
             </a>
@@ -4590,7 +4634,7 @@ function GetParamValueFromUrlStr(url, paramName) {
             </a>
            </div>
            <div class="course-sidebar__buttons px-3 px-md-0">
-            <a class="btn btn-block btn-outline-success course-sidebar__button course-sidebar__button--main rounded-pill webLink" href="/common/clickCount.aspx?theid=42620&amp;type=287&amp;did=4728&amp;url=https%3a%2f%2fhub.ucd.ie%2fusis%2f!W_HU_MENU.P_PUBLISH%3fp_tag%3dPROG%26MAJR%3dT306" onclick="faustat.addstats('MAS',287,42620);PermutiveInsights.linkClickEvent(this.innerHTML, 'link', this.getAttribute('href'));ga('send', 'event', 'InstID=272', 'Course Listing Referral (Footer Action Bar)', 'CID=42620#', {'nonInteraction': 1});;DataLayerRefExternalFull(272, 'University College Dublin', '4728', '42620', 'UCD School of Mathematics and Statistics', dataLayerPagePropertyType, '');dataLayer.push({'event': 'referral_clicks', 'click_type': 'Course Page &gt; Institution Website Button', 'InstID': '272', 'CID': '42620', 'type': '287', });;" rel="nofollow" target="_blank">
+            <a class="btn btn-block btn-outline-success course-sidebar__button course-sidebar__button--main rounded-pill webLink" href="/common/clickCount.aspx?theid=42620&amp;type=211&amp;did=4728&amp;url=https%3a%2f%2fhub.ucd.ie%2fusis%2f!W_HU_MENU.P_PUBLISH%3fp_tag%3dPROG%26MAJR%3dT306" onclick="faustat.addstats('MAS',211,42620);PermutiveInsights.linkClickEvent(this.innerHTML, 'link', this.getAttribute('href'));ga('send', 'event', 'InstID=272', 'Course Listing Referral (Footer Action Bar)', 'CID=42620#', {'nonInteraction': 1});;DataLayerRefExternalFull(272, 'University College Dublin', '4728', '42620', 'UCD School of Mathematics and Statistics', dataLayerPagePropertyType, '');dataLayer.push({'event': 'referral_clicks', 'click_type': 'Course Page &gt; Institution Website Button', 'InstID': '272', 'CID': '42620', 'type': '211', });;" rel="nofollow" target="_blank">
              Visit institution website
             </a>
             <a class="btn btn-block btn-success course-sidebar__button course-sidebar__button--main email emailLink rounded-pill" data-email-addr="e44e647578067d4b02efa86d600f3b099da1a2a0ad1492cfe5ce26dd4d5367fe" data-email-name="University College Dublin" data-stattype="3" href="javascript:void(0)">
@@ -4831,7 +4875,7 @@ function GetParamValueFromUrlStr(url, paramName) {
         }
     }
             </script>
-            <div class="email-area__new emailPanelOuter noBorder course-content open" data-id="42620" data-stattype="1" data-type="8" id="EmailArea">
+            <div class="email-area__new emailPanelOuter noBorder course-content open" data-id="42620" data-stattype="1" data-type="1" id="EmailArea">
              <div class="emailPanel fau-form form__with-validation territory" id="EmailPanel">
               <div class="sendPage">
                <div class="title" style="display: none;">
@@ -6921,7 +6965,7 @@ function GetParamValueFromUrlStr(url, paramName) {
            Where will I study?
           </h2>
           <div class="inst-profile" id="DetailsInstitutionProfileDiv">
-           <a class="card mb-3 shadow-sm text-dark text-decoration-none" href="/masters-degrees/institution/272/university-college-dublin" onclick="DataLayerRefInternal('InstitutionProfile', 'University College Dublin', '272', '');faustat.addstats('MAS', 294, 42620);PermutiveInsights.linkClickEvent(this.innerHTML, 'link', this.getAttribute('href'));ga('send', 'event', 'InstID=272', 'Course Listing Institution Profile Referral (Button)', 'CID=42620#', {'nonInteraction': 1});" target="_blank">
+           <a class="card mb-3 shadow-sm text-dark text-decoration-none" href="/masters-degrees/institution/272/university-college-dublin" onclick="DataLayerRefInternal('InstitutionProfile', 'University College Dublin', '272', '');faustat.addstats('MAS', 224, 42620);PermutiveInsights.linkClickEvent(this.innerHTML, 'link', this.getAttribute('href'));ga('send', 'event', 'InstID=272', 'Course Listing Institution Profile Referral (Button)', 'CID=42620#', {'nonInteraction': 1});" target="_blank">
             <div class="card-img-wrap">
              <img alt="University Logo logo for Ireland’s Global University " class="img-fluid card-img-top inst-profile__image" src="https://fau-res.cloudinary.com/image/upload/common/bespoke-pages/custom-pages/bpid4406/img20201028495.jpg"/>
             </div>
@@ -6989,7 +7033,7 @@ function GetParamValueFromUrlStr(url, paramName) {
      </div>
     </div>
     <script>
-     faustat.addstats('MAS','282',42620);
+     faustat.addstats('MAS','1',42620);
     </script>
     <div class="clearBoth">
     </div>
@@ -7060,36 +7104,81 @@ function GetParamValueFromUrlStr(url, paramName) {
            Based on your current search criteria we thought you might be interested in these
           </p>
           <p class="suggestions__content lh-small">
-           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/master-of-science-in-data-science-and-preparatory-certificate-in-computing/?i92d7727c71699" title="View Master of Science in Data Science &amp; Preparatory Certificate in Computing at Online, Flexible and Professional Development, Atlantic Technological University">
-            Master of Science in Data Science &amp; Preparatory Certificate in Computing
+           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/msc-statistical-data-science/?i318d1051c1771" title="View MSc - Statistical Data Science at School of Mathematics, Statistics &amp; Actuarial Science, University of Kent">
+            MSc - Statistical Data Science
            </a>
            <br/>
-           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/atlantic-technological-university/" title="View all Masters Degrees at Atlantic Technological University">
-            Atlantic Technological University
+           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/university-of-kent/" title="View all Masters Degrees at University of Kent">
+            University of Kent
            </a>
           </p>
           <p class="suggestions__content lh-small">
-           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/msc-big-data-science/?i194d2155c37406" title="View MSc Big Data Science at School of Electronic Engineering and Computer Science, Queen Mary University of London">
-            MSc Big Data Science
+           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/actuarial-science-with-data-analytics-msc-pgdip/?i322d952c10087" title="View Actuarial Science with Data Analytics - MSc/PGDip at Mathematics, University of Leicester">
+            Actuarial Science with Data Analytics - MSc/PGDip
            </a>
            <br/>
-           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/queen-mary-university-of-london/" title="View all Masters Degrees at Queen Mary University of London">
-            Queen Mary University of London
+           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/university-of-leicester/" title="View all Masters Degrees at University of Leicester">
+            University of Leicester
            </a>
           </p>
           <p class="suggestions__content lh-small">
-           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/data-science-msc/?i356d4268c39537" title="View Data Science - MSc at School of Mathematical and Physical Sciences, University of Sussex">
-            Data Science - MSc
+           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/management-and-data-science-m-sc/?i855d5880c19797" title="View Management &amp; Data Science (M.Sc.) at Graduate School, Leuphana University Lüneburg">
+            Management &amp; Data Science (M.Sc.)
            </a>
            <br/>
-           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/university-of-sussex/" title="View all Masters Degrees at University of Sussex">
-            University of Sussex
+           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/leuphana-university-luneburg/" title="View all Masters Degrees at Leuphana University Lüneburg">
+            Leuphana University Lüneburg
            </a>
           </p>
          </div>
         </div>
        </div>
       </div>
+      <div class="col-24 my-3 pl-md-0 pr-md-2 px-0 inContentAdSection">
+       <div class="inContentZone">
+       </div>
+      </div>
+      <script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver">
+      </script>
+      <script type="text/javascript">
+       var zones = ["284096665"];
+                    var observerMas = new IntersectionObserver(setMasAdObservers);
+
+                    $(document).ready(function () {
+                        var filter = getPSegments();
+
+                        for (let i = 0; i < zones.length; i++) {
+                            get_incontent_ad(zones[i], filter, i + 1);
+                        }
+                    });
+                    function getPSegments() {
+                        var filter = "";
+                        var _psegments = "" + JSON.parse(localStorage.getItem("_psegs"));
+                        var _ppatt = /,/gi;
+                        if (_psegments != null) filter = "|_" + _psegments.replace(_ppatt, "_,_") + "_|";
+                        return filter;
+                    }
+                    function get_incontent_ad(zone, filter, position) {
+                        if (!navigator || !navigator.userAgent || /Googlebot/.test(navigator.userAgent) == false) {
+                            var keywords = "";
+                            if (filter != "") keywords = "&keywords=" + filter;
+                            var snippet = "<span id=zone" + zone + "></span><" + "script>(function() {var s = document.createElement('script');s.type = 'text/javascript'; s.async = true;s.src = '//engine.findamasters.com/?" + zone + keywords + "';var n = document.getElementsByTagName('script')[0];n.parentNode.insertBefore(s, n);})();</" + "script>";
+                            var t1 = setTimeout(function () { $('.inContentZone:eq(0)').after(snippet + "<s" + "cript> $('.inContentZone:eq(0)').remove();</" + "script><s" + "cript> observerMas.observe(document.querySelector('#zone" + zone + "'));</" + "script>"); }, 500);
+                        }
+                    }
+
+                    function setMasAdObservers(entries) {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting === true) {
+                                indexId = zones.indexOf(entry.target.id.replace('zone', ''));
+                                DataLayerAdImpressionContent('incontentbanner', indexId + 1, '');
+                                observerMas.unobserve(entry.target);
+                            }
+                        }, {
+                            threshold: 1.0
+                        });
+                    }
+      </script>
      </div>
     </div>
    </div>
@@ -7797,7 +7886,7 @@ function GetParamValueFromUrlStr(url, paramName) {
    <script>
     //audience building for GA, see AH or JT
         window.dataLayer = window.dataLayer || {};
-        window.dataLayer.push({ 'IsFeatured': 'True' });
+        window.dataLayer.push({ 'IsFeatured': 'False' });
         //add pageview details to dataLayer
         window.dataLayer.push({ 'fau.event': 'page.view', 'fau.product.id': 42620, 'fau.inst.id': 272 , 'fau.dept.id': 4728 });
    </script>
@@ -9345,7 +9434,7 @@ $(document).ready(function () {
           cl.responsive();
     });
   </script>
-  <script crossorigin="anonymous" data-cf-beacon='{"rayId":"824202d38fe41e65","b":1,"version":"2023.10.0","token":"110e19a3aef14d8eb7fd8a26c8a127fd"}' defer="" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317">
+  <script crossorigin="anonymous" data-cf-beacon='{"rayId":"82427ce29cdea319","b":1,"version":"2023.10.0","token":"110e19a3aef14d8eb7fd8a26c8a127fd"}' defer="" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317">
   </script>
  </body>
 </html>
@@ -9371,7 +9460,7 @@ $(document).ready(function () {
         });
       }
 
-    var objPerm = [{"date":null,"location":{"continent":null,"country":{"name":"Ireland","isocode":null},"city":{"name":"Dublin"},"cityRegion":null,"distance":null},"discipline":{"names":["Mathematics"],"ids":[25]},"event":null,"user":null,"category":{"previousType":null,"type":"FeaturedCourseDetails"},"study":{"terms":["September"],"types":["Full Time","On Campus"]},"page":{"jumpLink":null,"hopCount":null,"name":null,"id":"42620"},"programme":{"types":["MSc"]},"subject":{"names":["Applied Statistics","Computational Mathematics","Operational Research"],"ids":[2510,2507,2508]},"institution":{"primary":{"dept":{"name":"UCD School of Mathematics and Statistics","id":4728},"name":"University College Dublin","id":272}},"search":null,"interaction":null,"labels":null,"association":{"instprofile":true,"openday":false,"scholarship":false,"studentprofile":false,"talktostudent":false,"video":true}}];
+    var objPerm = [{"date":null,"location":{"continent":null,"country":{"name":"Ireland","isocode":null},"city":{"name":"Dublin"},"cityRegion":null,"distance":null},"discipline":{"names":["Mathematics"],"ids":[25]},"event":null,"user":null,"category":{"previousType":null,"type":"CourseDetails"},"study":{"terms":["September"],"types":["Full Time","On Campus"]},"page":{"jumpLink":null,"hopCount":null,"name":null,"id":"42620"},"programme":{"types":["MSc"]},"subject":{"names":["Computational Mathematics","Operational Research","Applied Statistics"],"ids":[2507,2508,2510]},"institution":{"primary":{"dept":{"name":"UCD School of Mathematics and Statistics","id":4728},"name":"University College Dublin","id":272}},"search":null,"interaction":null,"labels":null,"association":{"instprofile":true,"openday":false,"scholarship":false,"studentprofile":false,"talktostudent":false,"video":true}}];
     var objString = JSON.stringify(objPerm);
 
     var sI = setInterval(function () {

@@ -1,0 +1,574 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+ <head>
+  <title>
+   FindAMasters | 500 Error : Internal Server Error
+  </title>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <meta content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" id="Viewport" name="viewport"/>
+  <link href="/bundles/globalScss.css?v=Fkvi3bf_yOgkW0rg4fV0SBbLANktpYbRkF1XA9-0pPs1" rel="stylesheet"/>
+  <script src="/common/js/jQuery/jquery.min.js">
+  </script>
+  <script crossorigin="anonymous" defer="" src="https://kit.fontawesome.com/91b1e46054.js">
+  </script>
+  <script src="/bundles/globalJs.js?v=naQAKa7DCK2Ks-G-vNkuuVugg8AZrNGcrBImKco6EcQ1">
+  </script>
+  <link href="https://unpkg.com/tippy.js@6/dist/border.css" rel="stylesheet"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+  </script>
+  <script>
+   WebFont.load({
+            google: {
+                families: ['Poppins: 300,600']
+            }
+        });
+  </script>
+  <style type="text/css">
+   #logoLink{
+            padding: 12px 0px !important;
+        }
+        .siteMenu__item{
+            font-weight: 300 !important;
+        }
+
+.outer-500{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+        .btn-500{
+            margin-top: 50px;
+            background: #ff8800;
+            color: #fff;
+            font-size: 18pt;
+            border: 0px !important;
+            font-family: Poppins;
+            font-weight: bold;
+        }
+        .btn-500:hover{
+            background: #ff8800;
+            color: #fff;
+        }
+
+/*        ul.mylist li {
+            background-position: 0px 14px;
+        }*/
+
+        h1 {
+            padding: 0px !important;
+            margin: 0px !important;
+            font-family: Poppins, Arial, sans-serif;
+            font-size: 70px;
+            line-height: 70px;
+            color: #339933;
+            font-weight: bold;
+        }
+        @media (min-width: 992px) and (max-width: 1200px){
+            h1{
+                font-size: 55px;
+                line-height: 55px;
+            }
+        }
+        @media (max-width: 992px) and (min-width: 767px){
+            h1{
+                font-size: 55px;
+                line-height: 55px;
+            }
+        }
+        @media (max-width: 767px){
+            h1 {
+                font-size: 30px;
+                line-height: 30px;
+                text-align: center;
+            }
+            .btn-500{
+                font-size: 16pt;
+                margin-top: 20px;
+            }
+
+        }
+        @media (max-width: 992px){
+            #logoLink{
+                padding-left: 5px;
+            }
+        }
+       img.compass { width:100%; }
+        .container-500{
+                display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            height: 100vh;
+        }
+
+        .row-500 p{
+            font-size: 13pt;
+    font-family: Poppins;
+    font-weight: 400;
+    margin-top: 30px;
+}
+        .submenu #Main{
+            background: #333;
+        }
+  </style>
+ </head>
+ <body>
+  <div id="header" style="z-index: 1; height: auto !important;">
+   <div id="header-inner">
+    <nav class="navbar navbar-expand-lg py-0 bg-white border-bottom border-light" id="sitemenu">
+     <a class="navbar-brand p-0" href="/" title="FindAMasters.com">
+      <img alt="FindAMasters.com" height="30px" id="logo" src="https://fau-res.cloudinary.com/image/upload/h_30,c_scale/mas/logo-color-cropped.svg"/>
+     </a>
+     <div class="collapse navbar-collapse siteMenu" id="navbarNav">
+      <ul class="navbar-nav mx-auto siteMenu">
+       <li class="siteMenu__item" data-menu-type="programmes">
+        Programmes
+        <i class="fa-regular fa-angle-down">
+        </i>
+        <i class="fa-regular fa-angle-up">
+        </i>
+       </li>
+       <div class="nav-option nav-option__programmes" id="programmes">
+        <div class="container">
+         <div class="nav-option__col">
+          <h3>
+           Masters Programmes
+          </h3>
+          <a href="/masters-degrees/discipline/">
+           Masters by discipline
+          </a>
+          <a href="/masters-degrees/subject/">
+           Masters by subject
+          </a>
+          <a href="/masters-degrees/country/">
+           Masters by country
+          </a>
+          <a href="/masters-degrees/online-distance-learning/">
+           Online Masters programmes
+          </a>
+          <a href="/masters-degrees/part-time/">
+           Part time Masters programmes
+          </a>
+          <a href="/masters-degrees/last-minute-courses/">
+           Start a Masters in 2023
+          </a>
+          <a href="/masters-degrees/" style="font-weight: 600;">
+           View all Masters programmes
+          </a>
+         </div>
+         <div class="nav-option__col">
+          <h3>
+           Masters by discipline
+          </h3>
+          <a href="/masters-degrees/psychology/">
+           Psychology
+          </a>
+          <a href="/masters-degrees/business-and-management/">
+           Business and Management
+          </a>
+          <a href="/masters-degrees/nursing-and-health/">
+           Nursing and Health
+          </a>
+          <a href="/masters-degrees/history-and-archaeology/">
+           History and Archaeology
+          </a>
+          <a href="/masters-degrees/education/">
+           Education
+          </a>
+          <a href="/masters-degrees/discipline/" style="font-weight: 600;">
+           Search by discipline
+          </a>
+         </div>
+         <div class="nav-option__col">
+          <h3>
+           Masters by country
+          </h3>
+          <a href="/masters-degrees/united-kingdom/">
+           United Kingdom
+          </a>
+          <a href="/masters-degrees/usa/">
+           USA
+          </a>
+          <a href="/masters-degrees/germany/">
+           Germany
+          </a>
+          <a href="/masters-degrees/ireland/">
+           Ireland
+          </a>
+          <a href="/masters-degrees/netherlands/">
+           Netherlands
+          </a>
+          <a href="/masters-degrees/country/" style="font-weight: 600;">
+           Search by country
+          </a>
+         </div>
+        </div>
+       </div>
+       <li class="siteMenu__item" data-menu-type="guides">
+        Guides
+        <i class="fa-regular fa-angle-down">
+        </i>
+        <i class="fa-regular fa-angle-up">
+        </i>
+       </li>
+       <div class="nav-option nav-option__guides" id="guides">
+        <div class="container">
+         <div class="nav-option__col">
+          <h3>
+           Masters advice
+          </h3>
+          <a href="/guides/masters-degree-interviews">
+           Masters degree interviews
+          </a>
+          <a href="/guides/masters-degree-grades">
+           Masters degree grades
+          </a>
+          <a href="/guides/applying-for-a-masters">
+           Postgraduate applications
+          </a>
+          <a href="/guides/personal-statement-for-masters-degree">
+           Personal statements
+          </a>
+          <a href="/guides/postgraduate-certificate-in-education-pgce-guide">
+           PGCE study
+          </a>
+          <a href="/blog/">
+           Masters blog
+          </a>
+          <a href="/authors/">
+           Our editorial team
+          </a>
+          <a href="/guides/advice/" style="font-weight: 600;">
+           View all advice guides
+          </a>
+         </div>
+         <div class="nav-option__col">
+          <h3>
+           Funding information
+          </h3>
+          <a href="/guides/cost-of-a-masters">
+           Masters degree costs
+          </a>
+          <a href="/guides/postgraduate-loans-guide">
+           UK postgraduate student loans
+          </a>
+          <a href="/guides/international-masters-funding-uk">
+           International student funding
+          </a>
+          <a href="/guides/scholarships">
+           Masters scholarships
+          </a>
+          <a href="/guides/nhs-funding">
+           NHS funding
+          </a>
+          <a href="/guides/funding/" style="font-weight: 600;">
+           View all funding information guides
+          </a>
+         </div>
+         <div class="nav-option__col">
+          <h3>
+           International study
+          </h3>
+          <a href="/guides/masters-study-in-germany">
+           Masters in Germany
+          </a>
+          <a href="/guides/masters-study-in-usa">
+           Masters in the USA
+          </a>
+          <a href="/guides/masters-study-in-australia">
+           Masters in Australia
+          </a>
+          <a href="/guides/masters-study-in-canada">
+           Masters in Canada
+          </a>
+          <a href="/guides/masters-study-in-uk">
+           Masters in the UK
+          </a>
+          <a href="/guides/study-abroad/" style="font-weight: 600;">
+           View all international study guides
+          </a>
+         </div>
+        </div>
+       </div>
+       <li class="siteMenu__item" data-menu-type="events">
+        Events
+        <i class="fa-regular fa-angle-down">
+        </i>
+        <i class="fa-regular fa-angle-up">
+        </i>
+       </li>
+       <div class="nav-option nav-option__events" id="events">
+        <div class="container">
+         <div class="nav-option__col">
+          <h3>
+           Postgrad study fairs
+          </h3>
+          <a href="/events/virtual-fairs/">
+           Virtual study fairs
+          </a>
+          <a href="/events/postgrad-live/">
+           Postgrad LIVE study fairs
+          </a>
+          <a href="/events/phd-live/">
+           PhD LIVE study fairs
+          </a>
+          <a href="/events/postgraduateroadshow">
+           Russell Group Roadshow
+          </a>
+          <a href="/events/calendar.aspx" style="font-weight: 600;">
+           View all study fairs
+          </a>
+         </div>
+         <div class="nav-option__col">
+          <h3>
+           University open days
+          </h3>
+          <a href="/opendays/online/">
+           Virtual / Online open days
+          </a>
+          <a href="/opendays/?on-campus">
+           On campus open days
+          </a>
+          <a href="/opendays/" style="font-weight: 600;">
+           View all open days
+          </a>
+         </div>
+        </div>
+       </div>
+      </ul>
+      <a class="mainSearchBtn d-none d-lg-inline-block showSearch mx-3" href="#" onclick="showSearch();return false;">
+       <span aria-hidden="true" class="fa-regular fa-search">
+       </span>
+      </a>
+      <ul class="navbar-nav navbar-nav__account d-none d-lg-inline-block small bg-success position-relative mt-n2 mb-n2" id="navUserLogin" style="height: 45px;">
+       <li class="nav-item small d-flex align-items-center justify-content-center" style="cursor: pointer;">
+        <a class="nav-link" onclick="$('#providerModal').html($('#providerModalLogin').html());$('#providerModal').modal('show'); $('iframe.fau-login-iframe').iFrameResize(); fau.signup_win.toggleSignupArea(); _SelectedSignInType = 'Basic'; setSignInType();">
+         <i class="fa-regular fa-user pr-2">
+         </i>
+         <span>
+          Sign in
+         </span>
+         <span class="nav-user__signup">
+         </span>
+        </a>
+       </li>
+      </ul>
+      <ul class="navbar-nav navbar-nav__account small bg-success position-relative mt-n2 mb-n2 d-none" id="navUserMenu">
+       <li class="nav-item small d-flex align-items-center justify-content-center" id="oAuthProviderLogin">
+        <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" id="accountProviderLink">
+         ACCOUNT
+        </a>
+        <div aria-labelledby="navbarDropdown" class="dropdown-menu p-0 mt-0 border-0" id="userNavMenu" style="z-index: 9;">
+         <a class="dropdown-item list-group-item small" href="/myaccount/">
+          <i class="fa-regular fa-house-user pr-2">
+          </i>
+          My account
+         </a>
+         <a class="dropdown-item list-group-item small" href="/myaccount/alerts-searches.aspx">
+          <i class="fa-regular fa-bell pr-2">
+          </i>
+          News &amp; updates
+         </a>
+         <a class="dropdown-item list-group-item small" href="/myaccount/email-enquiries.aspx">
+          <i class="fa-regular fa-envelope pr-2">
+          </i>
+          Sent enquiries
+         </a>
+         <a class="dropdown-item list-group-item small" href="/myaccount/saved-courses.aspx">
+          <i class="fa-regular fa-heart pr-2">
+          </i>
+          Saved programmes
+         </a>
+         <a class="dropdown-item list-group-item small" href="/myaccount/upcoming-events.aspx">
+          <i class="fa-regular fa-calendar pr-2">
+          </i>
+          Upcoming events
+         </a>
+         <a class="dropdown-item list-group-item small" href="/myaccount/my-details.aspx">
+          <i class="fa-regular fa-user pr-2">
+          </i>
+          My details
+         </a>
+         <a class="dropdown-item list-group-item small" onclick="event.stopPropagation(); logoutUser();" style="cursor: pointer;">
+          <i class="fa-regular fa-right-from-bracket pr-2">
+          </i>
+          Log out
+         </a>
+        </div>
+       </li>
+       <li class="nav-item small d-flex align-items-center justify-content-center" id="oAuthProviderLogout" style="display: none !important;">
+        <a class="nav-link" id="oAuthProviderLogoutBtn" onclick="logoutUser();">
+         Logout
+        </a>
+       </li>
+       <li class="nav-item align-items-center justify-content-center d-flex px-2">
+        <a class="softlink text-white mainSearchBtn text-decoration-none" href="/MyAccount/saved-courses.aspx" id="ShortlistManagerButton">
+         <span aria-hidden="true" class="fa-regular fa-lg fa-heart">
+         </span>
+         <span class="glyphicon-star-bubble badge badge-secondary text-white" id="ShortlistCounter" style="position: relative; top: -10px; left: -3px;">
+          0
+         </span>
+        </a>
+       </li>
+      </ul>
+     </div>
+     <span class="navbar-text pb-1 float-right">
+      <a class="d-inline-block d-lg-none mx-2 btn btn-primary btn-sm" id="mobileUser" onclick="$('#providerModal').html($('#providerModalLogin').html());$('#providerModal').modal('show'); $('iframe.fau-login-iframe').iFrameResize(); fau.signup_win.toggleSignupArea(); _SelectedSIgnInType = 'Basic'; setSignInType();" style="border-radius: 50px; padding: 10px;">
+       <i class="fa-regular fa-user">
+       </i>
+       Sign In
+      </a>
+      <a class="d-inline-block d-lg-none ml-2" href="#" onclick="$('#navbarNav').toggleClass('show-mobile-menu');showSearch();return false;">
+       <i class="fa-regular fa-bars">
+       </i>
+      </a>
+     </span>
+     <div class="submenu d-none position-absolute d-none zindex-dropdown w-100" style="z-index: 3; left: 0;">
+      <div class="submenu-inner">
+       <div class="row mx-0 mb-n2 mt-2 bg-dark">
+        <div class="col-24 col-md-24" id="Main">
+         <div class="menuBox" id="submenu_Main" style="display: none;">
+          <a class="menu-back hidden" href="#" onclick="">
+           <i class="glyphicon glyphicon-triangle-left">
+           </i>
+          </a>
+          <a class="menu-cross" href="#" onclick="hideMenu();return false;">
+           <i class="glyphicon glyphicon-remove">
+           </i>
+          </a>
+          <div class="row tight">
+           <div class="col-24 col-lg-8 menuCol text-white px-0">
+            <div class="menuItem py-3 border-bottom border-gray-600 px-3">
+             <div class="spacer">
+             </div>
+             <a class="text-white" href=" /masters-degrees/" onclick="" title="Masters Degree Programmes">
+              Masters Programmes
+             </a>
+            </div>
+            <div class="menuItem py-3 border-bottom border-gray-600 px-3">
+             <div class="spacer">
+             </div>
+             <a class="text-white" href=" /events/" onclick="" title="Postgraduate Study Fairs &amp; Open Day Events">
+              Events
+             </a>
+            </div>
+           </div>
+           <div class="col-24 col-lg-8 menuCol text-white px-0">
+            <div class="menuItem py-3 border-bottom border-gray-600 px-3">
+             <div class="spacer">
+             </div>
+             <a class="text-white" href=" /guides/funding/" onclick="" title="Masters Degree Funding">
+              Funding
+             </a>
+            </div>
+            <div class="menuItem py-3 border-bottom border-gray-600 px-3">
+             <div class="spacer">
+             </div>
+             <a class="text-white" href=" /advice/" onclick="" title="Masters Degree Advice">
+              Advice
+             </a>
+            </div>
+           </div>
+           <div class="col-24 col-lg-8 menuCol text-white px-0">
+            <div class="menuItem py-3 border-bottom border-gray-600 px-3">
+             <div class="spacer">
+             </div>
+             <a class="softlink text-white" href=" /providers/?utm_source=header" title="Advertise on FindAMasters">
+              Advertise with us
+             </a>
+            </div>
+           </div>
+           <div class="col-24 col-lg-8 menuCol text-white px-0">
+            <div class="menuItem py-3 border-bottom border-gray-600 p-3">
+             <div class="spacer">
+             </div>
+             <a class="btn btn-success btn-block" href="#" id="signupMenuLinkMob" onclick="$('#providerModal').html($('#providerModalLogin').html());$('#providerModal').modal('show'); $('iframe.fau-login-iframe').iFrameResize(); fau.signup_win.toggleSignupArea()">
+              <i class="fa-regular fa-user">
+              </i>
+              Login / Register
+             </a>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </nav>
+   </div>
+  </div>
+  <div class="full-search">
+   <div class="full-search">
+    <div class="container-fluid bg-white px-0" id="search" style="display:none;">
+     <div class="container py-0 py-lg-2" id="search-inner">
+      <div class="row">
+       <div class="col-24 px-0">
+        <div class="input-group" id="SearchArea">
+         <input aria-describedby="basic-addon2" autocomplete="off" class="form-control" id="searchText" onfocus="SearchSuggester.onFocus(event, this)" placeholder="Search 23,890 masters degrees worldwide" style="border: 0; border-radius: 0; box-shadow: none !important;" type="text"/>
+         <div class="input-group-append">
+          <button class="btn btn-basic" onclick="SearchSuggester.doSearch($(this).closest('#SearchArea').find(input));" type="button">
+           <i class="fa-regular fa-search">
+           </i>
+          </button>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="container container-500" style="z-index: 0;">
+   <div class="row row-500" style="justify-content: center;">
+    <div class="col-xs-24 col-sm-24 col-md-20 col-md-push-2">
+     <div class="outer-500 col-xs-24 tight">
+      <div class="col-sm-16" style="text-align: center;">
+       <img alt="FindAMasters Compass Logo" class="compass" src="/images/mas-500.gif" title="FindAMasters Page Not Found"/>
+      </div>
+      <div class="col-sm-8 hidden-xs">
+       <h1>
+        We've lost our way.
+       </h1>
+      </div>
+     </div>
+     <div class="col-xs-24 tight">
+      <div class="row">
+       <div class="col-sm-12 col-xs-24">
+        <a class="btn btn-default btn-500 btn-block" href="/search">
+         STUDENTS
+        </a>
+       </div>
+       <div class="col-sm-12 col-xs-24">
+        <a class="btn btn-default btn-500 btn-block" href="/providers">
+         ADVERTISERS
+        </a>
+       </div>
+      </div>
+     </div>
+     <div class="col-xs-24 tight" style="margin-top: 30px; text-align: center;">
+      <p>
+       For any technical problems please email our
+       <span id="obf">
+        <script type="text/javascript">
+         document.getElementById("obf").innerHTML = "<n uers=\"znvygb:jrogrnz@svaqnhavirefvgl.pbz?fhowrpg=Jroznfgre Radhvel\" >Jro Grnz</n>".replace(/[a-zA-Z]/g, function (c) { return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26); });
+        </script>
+        <noscript>
+         <span style="unicode-bidi: bidi-override; direction: rtl;">
+          moc.ytisrevinuadnif@maetbew
+         </span>
+        </noscript>
+       </span>
+      </p>
+     </div>
+    </div>
+    <div class="clearBoth">
+    </div>
+   </div>
+  </div>
+  <script crossorigin="anonymous" data-cf-beacon='{"rayId":"8242f2b579a6a262","b":1,"version":"2023.10.0","token":"110e19a3aef14d8eb7fd8a26c8a127fd"}' defer="" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317">
+  </script>
+ </body>
+</html>

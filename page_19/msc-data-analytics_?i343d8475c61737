@@ -7143,21 +7143,12 @@ function GetParamValueFromUrlStr(url, paramName) {
            Based on your current search criteria we thought you might be interested in these
           </p>
           <p class="suggestions__content lh-small">
-           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/master-of-science-in-big-data-analytics/?i92d7727c71694" title="View Master of Science in Big Data Analytics at Online, Flexible and Professional Development, Atlantic Technological University">
-            Master of Science in Big Data Analytics
+           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/advanced-computer-science-data-analytics-msc/?i321d8435c26517" title="View Advanced Computer Science (Data Analytics) - MSc at School of Computing, University of Leeds">
+            Advanced Computer Science (Data Analytics) - MSc
            </a>
            <br/>
-           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/atlantic-technological-university/" title="View all Masters Degrees at Atlantic Technological University">
-            Atlantic Technological University
-           </a>
-          </p>
-          <p class="suggestions__content lh-small">
-           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/master-of-science-in-big-data-analytics-and-artificial-intelligence/?i92d7727c71695" title="View Master of Science in Big Data Analytics and Artificial Intelligence at Online, Flexible and Professional Development, Atlantic Technological University">
-            Master of Science in Big Data Analytics and Artificial Intelligence
-           </a>
-           <br/>
-           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/atlantic-technological-university/" title="View all Masters Degrees at Atlantic Technological University">
-            Atlantic Technological University
+           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/university-of-leeds/" title="View all Masters Degrees at University of Leeds">
+            University of Leeds
            </a>
           </p>
           <p class="suggestions__content lh-small">
@@ -7167,6 +7158,15 @@ function GetParamValueFromUrlStr(url, paramName) {
            <br/>
            <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/university-college-cork/" title="View all Masters Degrees at University College Cork">
             University College Cork
+           </a>
+          </p>
+          <p class="suggestions__content lh-small">
+           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/big-data-analytics-msc/?i219d2021c29797" title="View Big Data Analytics (MSc) at Postgraduate Courses, Sheffield Hallam University">
+            Big Data Analytics (MSc)
+           </a>
+           <br/>
+           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/sheffield-hallam-university/" title="View all Masters Degrees at Sheffield Hallam University">
+            Sheffield Hallam University
            </a>
           </p>
          </div>
@@ -9428,7 +9428,7 @@ $(document).ready(function () {
           cl.responsive();
     });
   </script>
-  <script crossorigin="anonymous" data-cf-beacon='{"rayId":"824202e08d271e61","b":1,"version":"2023.10.0","token":"110e19a3aef14d8eb7fd8a26c8a127fd"}' defer="" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317">
+  <script crossorigin="anonymous" data-cf-beacon='{"rayId":"82427d0a0c5028de","b":1,"version":"2023.10.0","token":"110e19a3aef14d8eb7fd8a26c8a127fd"}' defer="" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317">
   </script>
  </body>
 </html>

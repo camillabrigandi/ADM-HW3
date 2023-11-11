@@ -299,7 +299,7 @@
           var isiPad= navigator.userAgent.match(/iPad/i)!= null;if (isiPad){if ($('html').width()< 1360){$('#Viewport').attr("content", "initial-scale=0.775, maximum-scale=0.775, minimum-scale=0.775, user-scalable=no");} else{$('#Viewport').attr("content", "initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no");}}
          </script>
          <script>
-          var ip= "50.112.53.214";
+          var ip= "151.37.149.166";
          </script>
          <script>
           !function (n, e, o, r, i){ if (!e){ e= e||{}, window.permutive= e, e.q=[], e.config= i||{}, e.config.projectId= o, e.config.apiKey= r, e.config.environment= e.config.environment|| "production"; for (var t=["addon", "identify", "track", "trigger", "query", "segment", "segments", "ready", "on", "once", "user", "consent"], c= 0; c< t.length; c++){ var f= t[c]; e[f]= function (n){ return function (){ var o= Array.prototype.slice.call(arguments, 0); e.q.push({ functionName: n, arguments: o})}}(f)}}}(document, window.permutive, "e8d8c747-8675-4477-9233-4c8cc64f86d7", "ce6f3d8c-1a3c-4dec-95d5-5182609cff8a",{});
@@ -3491,28 +3491,28 @@ function GetParamValueFromUrlStr(url, paramName) {
 
         
 
-        if("1,7,5" != "")
+        if("1,5,7" != "")
         {
-            DataLayerManager.dynamicDisciplineIds = "1,7,5";
+            DataLayerManager.dynamicDisciplineIds = "1,5,7";
         }
 
         
         
-        if("Agriculture,Communication & Media Studies,Business & Management" != "")
+        if("Agriculture,Business & Management,Communication & Media Studies" != "")
         {
-            DataLayerManager.dynamicDisciplineNames = "Agriculture,Communication & Media Studies,Business & Management";
+            DataLayerManager.dynamicDisciplineNames = "Agriculture,Business & Management,Communication & Media Studies";
         }
         
         
-        if("109,111,121,122,704,511,506" != "")
+        if("109,111,121,122,506,511,704" != "")
         {
-            DataLayerManager.dynamicSubjectIds = "109,111,121,122,704,511,506";
+            DataLayerManager.dynamicSubjectIds = "109,111,121,122,506,511,704";
         }
          
                
-        if("Rural Estate and Farm Management,Agricultural Technology,Agricultural Sciences - Other,Agriculture - Other,Communications Management - Other,Land Management,Change Management" != "")
+        if("Rural Estate and Farm Management,Agricultural Technology,Agricultural Sciences - Other,Agriculture - Other,Change Management,Land Management,Communications Management - Other" != "")
         {
-            DataLayerManager.dynamicSubjectNames = "Rural Estate and Farm Management,Agricultural Technology,Agricultural Sciences - Other,Agriculture - Other,Communications Management - Other,Land Management,Change Management";
+            DataLayerManager.dynamicSubjectNames = "Rural Estate and Farm Management,Agricultural Technology,Agricultural Sciences - Other,Agriculture - Other,Change Management,Land Management,Communications Management - Other";
         }
         
                 
@@ -3681,10 +3681,10 @@ function GetParamValueFromUrlStr(url, paramName) {
                 DataLayerManager.dynamicDId = "4896";
                 DataLayerManager.dynamicDepartmentName = "UCD School of Agriculture and Food Science";
                 DataLayerManager.dynamicBpIdpId = "61530";
-                DataLayerManager.dynamicDisciplineIds = "1,7,5";
-                DataLayerManager.dynamicDisciplineNames = "Agriculture,Communication & Media Studies,Business & Management";
-                DataLayerManager.dynamicSubjectIds = "109,111,121,122,704,511,506";
-                DataLayerManager.dynamicSubjectNames = "Rural Estate and Farm Management,Agricultural Technology,Agricultural Sciences - Other,Agriculture - Other,Communications Management - Other,Land Management,Change Management";
+                DataLayerManager.dynamicDisciplineIds = "1,5,7";
+                DataLayerManager.dynamicDisciplineNames = "Agriculture,Business & Management,Communication & Media Studies";
+                DataLayerManager.dynamicSubjectIds = "109,111,121,122,506,511,704";
+                DataLayerManager.dynamicSubjectNames = "Rural Estate and Farm Management,Agricultural Technology,Agricultural Sciences - Other,Agriculture - Other,Change Management,Land Management,Communications Management - Other";
                 DataLayerManager.dynamicStudyTerms = "September";
                 DataLayerManager.dynamicStudyTypes = "Full Time,Part Time,Online";
                 DataLayerManager.dynamicLocationCountryName = "Ireland";
@@ -3704,10 +3704,10 @@ function GetParamValueFromUrlStr(url, paramName) {
 
         //EmailEnquiry
         function SendDataLayerEmailEnquiry() {
-            DataLayerManager.dynamicDisciplineIds = "1,7,5";
-                DataLayerManager.dynamicDisciplineNames = "Agriculture,Communication & Media Studies,Business & Management";
-                DataLayerManager.dynamicSubjectIds = "109,111,121,122,704,511,506";
-                DataLayerManager.dynamicSubjectNames = "Rural Estate and Farm Management,Agricultural Technology,Agricultural Sciences - Other,Agriculture - Other,Communications Management - Other,Land Management,Change Management";
+            DataLayerManager.dynamicDisciplineIds = "1,5,7";
+                DataLayerManager.dynamicDisciplineNames = "Agriculture,Business & Management,Communication & Media Studies";
+                DataLayerManager.dynamicSubjectIds = "109,111,121,122,506,511,704";
+                DataLayerManager.dynamicSubjectNames = "Rural Estate and Farm Management,Agricultural Technology,Agricultural Sciences - Other,Agriculture - Other,Change Management,Land Management,Communications Management - Other";
                 DataLayerManager.dynamicStudyTerms = "September";
                 DataLayerManager.dynamicStudyTypes = "Full Time,Part Time,Online";
                 DataLayerManager.dynamicLocationCountryName = "Ireland";
@@ -7180,21 +7180,21 @@ function GetParamValueFromUrlStr(url, paramName) {
            </a>
           </p>
           <p class="suggestions__content lh-small">
-           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/agricultural-sciences-for-sustainability/?i333d8847c71701" title="View Agricultural Sciences for Sustainability at Department of Agricultural and Environmental Sciences, University of Milan">
-            Agricultural Sciences for Sustainability
+           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/agricultural-economics/?i345d711c1812" title="View Agricultural Economics at School of Agriculture, Policy &amp; Development, University of Reading">
+            Agricultural Economics
            </a>
            <br/>
-           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/university-of-milan/" title="View all Masters Degrees at University of Milan">
-            University of Milan
+           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/university-of-reading/" title="View all Masters Degrees at University of Reading">
+            University of Reading
            </a>
           </p>
           <p class="suggestions__content lh-small">
-           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/master-of-agricultural-production-chain-management-msc-specialisation-livestock-chains/?i962d6062c22678" title="View Master of Agricultural Production Chain Management (MSc) - Specialisation Livestock Chains at Masters programmes, Van Hall Larenstein, University of Applied Sciences">
-            Master of Agricultural Production Chain Management (MSc) - Specialisation Livestock Chains
+           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/agricultural-and-environmental-science-msc/?i177d7799c3607" title="View Agricultural and Environmental Science - MSc at School of Natural and Environmental Sciences, Newcastle University">
+            Agricultural and Environmental Science - MSc
            </a>
            <br/>
-           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/van-hall-larenstein-university-of-applied-sciences/" title="View all Masters Degrees at Van Hall Larenstein, University of Applied Sciences">
-            Van Hall Larenstein, University of Applied Sciences
+           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/newcastle-university/" title="View all Masters Degrees at Newcastle University">
+            Newcastle University
            </a>
           </p>
          </div>
@@ -9456,7 +9456,7 @@ $(document).ready(function () {
           cl.responsive();
     });
   </script>
-  <script crossorigin="anonymous" data-cf-beacon='{"rayId":"8241eaf62fce6d83","b":1,"version":"2023.10.0","token":"110e19a3aef14d8eb7fd8a26c8a127fd"}' defer="" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317">
+  <script crossorigin="anonymous" data-cf-beacon='{"rayId":"824275a2b93a11b3","b":1,"version":"2023.10.0","token":"110e19a3aef14d8eb7fd8a26c8a127fd"}' defer="" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317">
   </script>
  </body>
 </html>
@@ -9482,7 +9482,7 @@ $(document).ready(function () {
         });
       }
 
-    var objPerm = [{"date":null,"location":{"continent":null,"country":{"name":"Ireland","isocode":null},"city":{"name":"Dublin"},"cityRegion":null,"distance":null},"discipline":{"names":["Agriculture","Communication & Media Studies","Business & Management"],"ids":[1,7,5]},"event":null,"user":null,"category":{"previousType":null,"type":"FeaturedCourseDetails"},"study":{"terms":["September"],"types":["Full Time","Part Time","Online"]},"page":{"jumpLink":null,"hopCount":null,"name":null,"id":"61530"},"programme":{"types":["MSc","Other"]},"subject":{"names":["Rural Estate and Farm Management","Agricultural Technology","Land Management","Change Management"],"ids":[109,111,511,506]},"institution":{"primary":{"dept":{"name":"UCD School of Agriculture and Food Science","id":4896},"name":"University College Dublin","id":272}},"search":null,"interaction":null,"labels":null,"association":{"instprofile":true,"openday":false,"scholarship":false,"studentprofile":true,"talktostudent":false,"video":true}}];
+    var objPerm = [{"date":null,"location":{"continent":null,"country":{"name":"Ireland","isocode":null},"city":{"name":"Dublin"},"cityRegion":null,"distance":null},"discipline":{"names":["Agriculture","Business & Management","Communication & Media Studies"],"ids":[1,5,7]},"event":null,"user":null,"category":{"previousType":null,"type":"FeaturedCourseDetails"},"study":{"terms":["September"],"types":["Full Time","Part Time","Online"]},"page":{"jumpLink":null,"hopCount":null,"name":null,"id":"61530"},"programme":{"types":["MSc","Other"]},"subject":{"names":["Rural Estate and Farm Management","Agricultural Technology","Change Management","Land Management"],"ids":[109,111,506,511]},"institution":{"primary":{"dept":{"name":"UCD School of Agriculture and Food Science","id":4896},"name":"University College Dublin","id":272}},"search":null,"interaction":null,"labels":null,"association":{"instprofile":true,"openday":false,"scholarship":false,"studentprofile":true,"talktostudent":false,"video":true}}];
     var objString = JSON.stringify(objPerm);
 
     var sI = setInterval(function () {

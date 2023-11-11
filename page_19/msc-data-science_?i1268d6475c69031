@@ -3491,28 +3491,28 @@ function GetParamValueFromUrlStr(url, paramName) {
 
         
 
-        if("25,8" != "")
+        if("8,25" != "")
         {
-            DataLayerManager.dynamicDisciplineIds = "25,8";
+            DataLayerManager.dynamicDisciplineIds = "8,25";
         }
 
         
         
-        if("Mathematics,Computer Science" != "")
+        if("Computer Science,Mathematics" != "")
         {
-            DataLayerManager.dynamicDisciplineNames = "Mathematics,Computer Science";
+            DataLayerManager.dynamicDisciplineNames = "Computer Science,Mathematics";
         }
         
         
-        if("2504,814,808" != "")
+        if("808,814,2504" != "")
         {
-            DataLayerManager.dynamicSubjectIds = "2504,814,808";
+            DataLayerManager.dynamicSubjectIds = "808,814,2504";
         }
          
                
-        if("Numerical Analysis,Computer Science - Other,Information Systems" != "")
+        if("Information Systems,Computer Science - Other,Numerical Analysis" != "")
         {
-            DataLayerManager.dynamicSubjectNames = "Numerical Analysis,Computer Science - Other,Information Systems";
+            DataLayerManager.dynamicSubjectNames = "Information Systems,Computer Science - Other,Numerical Analysis";
         }
         
                 
@@ -3681,10 +3681,10 @@ function GetParamValueFromUrlStr(url, paramName) {
                 DataLayerManager.dynamicDId = "6475";
                 DataLayerManager.dynamicDepartmentName = "Online Masters Degree Programmes";
                 DataLayerManager.dynamicBpIdpId = "69031";
-                DataLayerManager.dynamicDisciplineIds = "25,8";
-                DataLayerManager.dynamicDisciplineNames = "Mathematics,Computer Science";
-                DataLayerManager.dynamicSubjectIds = "2504,814,808";
-                DataLayerManager.dynamicSubjectNames = "Numerical Analysis,Computer Science - Other,Information Systems";
+                DataLayerManager.dynamicDisciplineIds = "8,25";
+                DataLayerManager.dynamicDisciplineNames = "Computer Science,Mathematics";
+                DataLayerManager.dynamicSubjectIds = "808,814,2504";
+                DataLayerManager.dynamicSubjectNames = "Information Systems,Computer Science - Other,Numerical Analysis";
                 DataLayerManager.dynamicStudyTerms = "October, January";
                 DataLayerManager.dynamicStudyTypes = "Part Time,Online";
                 DataLayerManager.dynamicLocationCountryName = "United Kingdom";
@@ -3704,10 +3704,10 @@ function GetParamValueFromUrlStr(url, paramName) {
 
         //EmailEnquiry
         function SendDataLayerEmailEnquiry() {
-            DataLayerManager.dynamicDisciplineIds = "25,8";
-                DataLayerManager.dynamicDisciplineNames = "Mathematics,Computer Science";
-                DataLayerManager.dynamicSubjectIds = "2504,814,808";
-                DataLayerManager.dynamicSubjectNames = "Numerical Analysis,Computer Science - Other,Information Systems";
+            DataLayerManager.dynamicDisciplineIds = "8,25";
+                DataLayerManager.dynamicDisciplineNames = "Computer Science,Mathematics";
+                DataLayerManager.dynamicSubjectIds = "808,814,2504";
+                DataLayerManager.dynamicSubjectNames = "Information Systems,Computer Science - Other,Numerical Analysis";
                 DataLayerManager.dynamicStudyTerms = "October, January";
                 DataLayerManager.dynamicStudyTypes = "Part Time,Online";
                 DataLayerManager.dynamicLocationCountryName = "United Kingdom";
@@ -6963,7 +6963,7 @@ function GetParamValueFromUrlStr(url, paramName) {
       <div class="page-content container px-0">
        <div class="row pr-lg-4">
         <div class="col-24 col-md-16 col-lg-17 course-content">
-         <a class="text-dark text-decoration-none" href="/masters-degrees/institution/1268/university-of-essex-online/#student-chat" onclick="faustat.addstats('MAS', 294, 69031);DataLayerManager.ChatToStudent(1268, 'University of Essex Online', 'unibuddy', 0,'False', '25,8' , 'Mathematics,Computer Science',  '2504,814,808',  'Numerical Analysis,Computer Science - Other,Information Systems',  'October, January',  'Part Time,Online',  'United Kingdom',  '',  'MSc', '');ga('send', 'event', 'InstID=1268', 'Course Listing Institution Profile Referral (Button)', 'CID=69031#', {'nonInteraction': 1});" target="_blank">
+         <a class="text-dark text-decoration-none" href="/masters-degrees/institution/1268/university-of-essex-online/#student-chat" onclick="faustat.addstats('MAS', 294, 69031);DataLayerManager.ChatToStudent(1268, 'University of Essex Online', 'unibuddy', 0,'False', '8,25' , 'Computer Science,Mathematics',  '808,814,2504',  'Information Systems,Computer Science - Other,Numerical Analysis',  'October, January',  'Part Time,Online',  'United Kingdom',  '',  'MSc', '');ga('send', 'event', 'InstID=1268', 'Course Listing Institution Profile Referral (Button)', 'CID=69031#', {'nonInteraction': 1});" target="_blank">
           <div class="row course-sections__student-chat--outer bg-white border rounded shadow-sm my-4 mx-0 p-3">
            <div class="col-24 px-0 course-sections__student-chat course-sections__student-chat--tap course-sections__student-chat--new">
             <h4 class="course-sections__title">
@@ -7294,8 +7294,8 @@ function GetParamValueFromUrlStr(url, paramName) {
            </i>
            <p class="suggestions__link--text mb-0 small">
             Check out our other Masters Courses in
-            <a class="text-success text-decoration-none" href="/masters-degrees/mathematics/">
-             Mathematics
+            <a class="text-success text-decoration-none" href="/masters-degrees/computer-science/">
+             Computer Science
             </a>
            </p>
           </div>
@@ -7334,21 +7334,21 @@ function GetParamValueFromUrlStr(url, paramName) {
            </a>
           </p>
           <p class="suggestions__content lh-small">
-           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/master-of-science-in-big-data-analytics/?i92d7727c71694" title="View Master of Science in Big Data Analytics at Online, Flexible and Professional Development, Atlantic Technological University">
-            Master of Science in Big Data Analytics
-           </a>
-           <br/>
-           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/atlantic-technological-university/" title="View all Masters Degrees at Atlantic Technological University">
-            Atlantic Technological University
-           </a>
-          </p>
-          <p class="suggestions__content lh-small">
            <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/geographic-data-science-msc-pgdip-pgcert-pgcert-intensive/?i16d9017c8063" title="View Geographic Data Science (MSc/PGDip/PGCert/PGCert Intensive) at School of Social Sciences, Birkbeck, University of London">
             Geographic Data Science (MSc/PGDip/PGCert/PGCert Intensive)
            </a>
            <br/>
            <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/birkbeck-university-of-london/" title="View all Masters Degrees at Birkbeck, University of London">
             Birkbeck, University of London
+           </a>
+          </p>
+          <p class="suggestions__content lh-small">
+           <a class="suggestions__content--course text-success small text-decoration-none" href="/masters-degrees/course/management-and-data-science-m-sc/?i855d5880c19797" title="View Management &amp; Data Science (M.Sc.) at Graduate School, Leuphana University Lüneburg">
+            Management &amp; Data Science (M.Sc.)
+           </a>
+           <br/>
+           <a class="suggestions__content--university small text-dark text-decoration-none" href="/masters-degrees/leuphana-university-luneburg/" title="View all Masters Degrees at Leuphana University Lüneburg">
+            Leuphana University Lüneburg
            </a>
           </p>
          </div>
@@ -9610,7 +9610,7 @@ $(document).ready(function () {
           cl.responsive();
     });
   </script>
-  <script crossorigin="anonymous" data-cf-beacon='{"rayId":"824202e50ce76d89","b":1,"version":"2023.10.0","token":"110e19a3aef14d8eb7fd8a26c8a127fd"}' defer="" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317">
+  <script crossorigin="anonymous" data-cf-beacon='{"rayId":"82427d1cdc091946","b":1,"version":"2023.10.0","token":"110e19a3aef14d8eb7fd8a26c8a127fd"}' defer="" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317">
   </script>
  </body>
 </html>
@@ -9636,7 +9636,7 @@ $(document).ready(function () {
         });
       }
 
-    var objPerm = [{"date":null,"location":{"continent":null,"country":{"name":"United Kingdom","isocode":null},"city":{"name":"Colchester"},"cityRegion":null,"distance":null},"discipline":{"names":["Mathematics","Computer Science"],"ids":[25,8]},"event":null,"user":null,"category":{"previousType":null,"type":"FeaturedCourseDetails"},"study":{"terms":["October, January"],"types":["Part Time","Online"]},"page":{"jumpLink":null,"hopCount":null,"name":null,"id":"69031"},"programme":{"types":["MSc"]},"subject":{"names":["Numerical Analysis","Information Systems"],"ids":[2504,808]},"institution":{"primary":{"dept":{"name":"Online Masters Degree Programmes","id":6475},"name":"University of Essex Online","id":1268}},"search":null,"interaction":null,"labels":null,"association":{"instprofile":true,"openday":true,"scholarship":true,"studentprofile":true,"talktostudent":false,"video":true}}];
+    var objPerm = [{"date":null,"location":{"continent":null,"country":{"name":"United Kingdom","isocode":null},"city":{"name":"Colchester"},"cityRegion":null,"distance":null},"discipline":{"names":["Computer Science","Mathematics"],"ids":[8,25]},"event":null,"user":null,"category":{"previousType":null,"type":"FeaturedCourseDetails"},"study":{"terms":["October, January"],"types":["Part Time","Online"]},"page":{"jumpLink":null,"hopCount":null,"name":null,"id":"69031"},"programme":{"types":["MSc"]},"subject":{"names":["Information Systems","Numerical Analysis"],"ids":[808,2504]},"institution":{"primary":{"dept":{"name":"Online Masters Degree Programmes","id":6475},"name":"University of Essex Online","id":1268}},"search":null,"interaction":null,"labels":null,"association":{"instprofile":true,"openday":true,"scholarship":true,"studentprofile":true,"talktostudent":false,"video":true}}];
     var objString = JSON.stringify(objPerm);
 
     var sI = setInterval(function () {
