@@ -1,17 +1,23 @@
 ### SAVING HTML & ORGANIZING THEM IN FOLDERS ###
-import itertools
 from functions import download_html
+import time
 
-prova = int(input())
-with open('msc_links.txt', 'r') as file:
-    for i in range(1, prova):
-        folder_i = 'page_' + str(i)
+### SAVING HTML & ORGANIZING THEM IN FOLDERS ###
+file = open('msc_links.txt', 'r')
+lines_list = file.readlines()
+file.close()
+
+for i in range(1, 401):
+    folder_i = 'page_' + str(i)
         
-        #selecting the lines corresponding to the i-th page
-        needed_lines = itertools.islice(file, 0, 15)
+    #selecting the lines corresponding to the i-th page
+    start = (i-1)*15
+    stop =  i*15
+    needed_lines = lines_list[start : stop]
 
-        #saving the corresponding html in "page_i" folder
-        for url in needed_lines:
-            download_html(str(url), folder_i)
-        
-
+    #saving the corresponding html in "page_i" folder
+    for line in needed_lines:
+        url  = 'https://www.findamasters.com/' + str(line)[:-1]
+        download_html(str(url), folder_i)
+        time.sleep(2)
+    
