@@ -7,7 +7,7 @@ for page_number in range(1, 401):
     folder_name = 'page_'+str(page_number)
     folder = os.listdir(folder_name)
     
-    i = 1
+    i = 1 #course number
     for file in folder:
         doc = open(os.path.join(folder_name, file), 'r')
         doc_attributes = get_attributes(doc)
