@@ -1,5 +1,6 @@
 ### QUESTION 1 ####
 import os
+import bs4 
 import requests
 from bs4 import BeautifulSoup
 
@@ -90,14 +91,15 @@ def get_attributes(doc):
             fees = ' '.join(fees).strip()
             
 
-
     #modality (MSC, modality)
-    if isItFullTime_modality__links != []:
-        for item in isItFullTime_modality__links:
-            if item['href']== "/masters-degrees/msc-degrees/":
-                modality = item.contents[0].strip('\n ')
-                break
- 
+    modality_ref = page_soup.find_all('span', {'class': 'key-info__qualification' })
+    if modality_ref != []:
+        modality_ref_ref = modality_ref[0].find_all('a')
+        modality = []
+        for item in modality_ref_ref: 
+            modality.append(item.contents[0].strip('\n '))
+                    
+        modality = ' '.join(modality).strip('\n ')
 
     #Duration (to save as duration):string;
     durationref = page_soup.find_all('span', {'class':'key-info__duration'})
