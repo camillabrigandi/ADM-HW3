@@ -1,9 +1,23 @@
-### QUESTION 1 ####
 import os
 import bs4 
 import requests
 from bs4 import BeautifulSoup
 import nltk
+
+### QUESTION 1 ####
+
+## 1.1 ##
+def extract_masters(this_url):
+  result_url = requests.get(this_url)
+  result_soup = BeautifulSoup(result_url.text)
+  result_links = result_soup.find_all('a', {'class':'courseLink'})
+  result_list=[]
+  for item in result_links:
+    result_list.append((item['href'], item.text))
+
+  return result_list
+
+
 
 def download_html(url, dest_folder):
     #path is the local path we're working in 

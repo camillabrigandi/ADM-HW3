@@ -1,8 +1,8 @@
-### SAVING HTML & ORGANIZING THEM IN FOLDERS ###
 from functions import download_html
 import time
 
 ### SAVING HTML & ORGANIZING THEM IN FOLDERS ###
+
 file = open('msc_links.txt', 'r')
 lines_list = file.readlines()
 file.close()
