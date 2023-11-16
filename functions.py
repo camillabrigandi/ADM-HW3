@@ -3,6 +3,7 @@ import os
 import bs4 
 import requests
 from bs4 import BeautifulSoup
+import nltk
 
 def download_html(url, dest_folder):
     #path is the local path we're working in 
@@ -134,3 +135,35 @@ def get_attributes(doc):
         url = url_ref[0]['href']
 
     return [courseName, universityName, facultyName, isItFullTime, description, startDate, fees, modality, duration, city, country, administration, url]
+
+
+
+####### 2.1.2 ########
+
+def preprocess_query(query):
+    tokenized_query = nltk.word_tokenize(query)
+    stopw = nltk.corpus.stopwords.words('english')
+    return [nltk.PorterStemmer().stem(word) for word in tokenized_query if (word.isalnum() and (not word in stopw))]
+
+
+def get_documents_conjunctive_query(query: list, vocabulary_dict: dict, inverted_index : dict):
+    #selecting the words in the (preprocessed) query that are in our vocabulary, and getting their indeces
+    query_needed_word_idx = list(set([vocabulary_dict[word] for word in query if word in vocabulary_dict]))
+
+    #no words of the query are in the voc => no documents for this query 
+    if query_needed_word_idx == []:
+        return []
+    
+    #if there are possible documents: determine their indexes and store them as a list of sets
+    probable_documents = list(map(set, [inverted_index.get(word_idx) for word_idx in query_needed_word_idx]))
+
+    #getting probable documents that contain all the words by comparing the ones that contain each word subsequently
+    for i in range(1, len(probable_documents)): 
+        probable_documents[i] =  probable_documents[i-1].intersection(probable_documents[i])
+
+        #if there are no documents that contain the all the words in th query up to this point => no doc at all
+        if probable_documents[i] == []:
+            return []
+    
+    #output: list of document indeces for the doc satysfing the query
+    return list(probable_documents[-1])
