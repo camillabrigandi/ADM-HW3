@@ -1,9 +1,14 @@
 import os
-import bs4 
+import bs4
 import requests
 from bs4 import BeautifulSoup
 import nltk
 
+from sklearn.feature_extraction.text import TfidfVectorizer, TfidfTransformer
+from sklearn.metrics.pairwise import cosine_similarity
+import heapq
+
+import numpy as np 
 ### QUESTION 1 ####
 
 ## 1.1 ##
@@ -161,23 +166,63 @@ def preprocess_query(query):
 
 
 def get_documents_conjunctive_query(query: list, vocabulary_dict: dict, inverted_index : dict):
-    #selecting the words in the (preprocessed) query that are in our vocabulary, and getting their indeces
-    query_needed_word_idx = list(set([vocabulary_dict[word] for word in query if word in vocabulary_dict]))
+    #checking if all the query's words are in the vocabulary
+    query_not_voc = [word for word in query if word not in vocabulary_dict]
 
-    #no words of the query are in the voc => no documents for this query 
-    if query_needed_word_idx == []:
+    #there are words of the query that aren't in the voc => no documents for this query 
+    if query_not_voc != []:
         return []
     
+    #if all the words of the query are in the vocabulary: 
+    query = set(query) #deleting repetitions in the query 
+    query_idx = [vocabulary_dict[word] for word in query]
+
     #if there are possible documents: determine their indexes and store them as a list of sets
-    probable_documents = list(map(set, [inverted_index.get(word_idx) for word_idx in query_needed_word_idx]))
+    probable_documents = list(map(set, [inverted_index.get(word_idx) for word_idx in query_idx]))
 
     #getting probable documents that contain all the words by comparing the ones that contain each word subsequently
     for i in range(1, len(probable_documents)): 
         probable_documents[i] =  probable_documents[i-1].intersection(probable_documents[i])
 
         #if there are no documents that contain the all the words in th query up to this point => no doc at all
-        if probable_documents[i] == []:
+        if probable_documents[i] == set():
             return []
     
     #output: list of document indeces for the doc satysfing the query
     return list(probable_documents[-1])
+
+
+
+#### 2.2
+def search_engine_tfidf(query: list, tfidf_invidx_dict: dict, vocabulary: dict, k = 10 ):
+    # check if there are any words in the query that aren't in the vocabulary
+    i=0
+    while query[i] in vocabulary and i < len(query) -1 :
+        i+=1
+    
+    if i != len(query) - 1:
+        return []
+
+    #if all the words in the query are in the vocabulary: 
+    #1. retrieving all the documents containing all the words in the query, using the function of the old search engine
+    sat_query_docs = get_documents_conjunctive_query(query, vocabulary, tfidf_invidx_dict) # non funziona
+
+    #2. check if there are any documents at all that satisfy the query
+    if sat_query_docs == []:
+        return []
+
+    # if such documents exist:
+    query_word_idx = [vocabulary[word] for word in query]
+
+    #docs representation using tfidf, as list of lists 
+    docs_tfidf = np.array([[tfidf_invidx_dict[word_idx].get(doc) for word_idx in query_word_idx] for doc in sat_query_docs])
+    np.reshape(docs_tfidf, (len(sat_query_docs), len(query)))
+
+    #tfidf of the query va sistemato questo
+    tfidf = TfidfVectorizer()  
+    query_tfidf = np.array(tfidf.fit_transform([' '.join(query)]).todense())
+
+    cossim_vec = cosine_similarity(docs_tfidf, query_tfidf)
+    #heap_topk = heapq.nlargest(k, list(zip(sat_query_docs, cossim_vec)), key=lambda el: el[1])
+
+    return heapq.nlargest(k, list(zip(sat_query_docs, cossim_vec)), key=lambda el: el[1])
