@@ -3,12 +3,13 @@ import bs4
 import requests
 from bs4 import BeautifulSoup
 import nltk
-
 from sklearn.feature_extraction.text import TfidfVectorizer, TfidfTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import heapq
-
+import time
 import numpy as np 
+
+
 ### QUESTION 1 ####
 
 ## 1.1 ##
@@ -157,6 +158,37 @@ def get_attributes(doc):
 
 
 
+####### 2.0.1 #######
+
+def currency_converter(money:tuple, currency_to:str, currency_dict: dict):
+    currency_from, numeric_value = money
+
+    #making sure the "output currency" is a abbreviation and not a symbol
+    if (not currency_to in currency_dict) and (not currency_from in currency_dict):
+        print(f'Unable to convert this currency')
+        return
+    
+    #making sure the "output currency" is a abbreviation and not a symbol
+    currency_to = currency_dict[currency_to]
+    currency_from = currency_dict[currency_from]
+    response = requests.get('https://open.er-api.com/v6/latest/' + currency_from)
+    time.sleep(1)
+
+    if response.ok:
+        data = response.json()
+        if data['result'] != 'error':
+            change_rates = data['rates']
+
+        return int(numeric_value)*change_rates[currency_to]
+
+
+def get_max_currency(lst):
+    if lst ==[]:
+        return 
+    else: 
+        return max(lst)
+    
+
 ####### 2.1.2 ########
 
 def preprocess_query(query):
@@ -215,14 +247,15 @@ def search_engine_tfidf(query: list, tfidf_invidx_dict: dict, vocabulary: dict, 
     query_word_idx = [vocabulary[word] for word in query]
 
     #docs representation using tfidf, as list of lists 
-    docs_tfidf = np.array([[tfidf_invidx_dict[word_idx].get(doc) for word_idx in query_word_idx] for doc in sat_query_docs])
+    docs_tfidf = np.array([[tfidf_invidx_dict[word_idx].get(doc) for word_idx in query_word_idx] for doc in sat_query_docs]) 
     np.reshape(docs_tfidf, (len(sat_query_docs), len(query)))
 
-    #tfidf of the query va sistemato questo
+    #tfidf of the query
     tfidf = TfidfVectorizer()  
     query_tfidf = np.array(tfidf.fit_transform([' '.join(query)]).todense())
 
+    # vector of cosine similarities: cambia e normalizza in maniera corretta, guarda quaderno
     cossim_vec = cosine_similarity(docs_tfidf, query_tfidf)
-    #heap_topk = heapq.nlargest(k, list(zip(sat_query_docs, cossim_vec)), key=lambda el: el[1])
+    
 
     return heapq.nlargest(k, list(zip(sat_query_docs, cossim_vec)), key=lambda el: el[1])
