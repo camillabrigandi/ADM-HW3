@@ -183,34 +183,48 @@ def get_attributes(doc):
 
 ####### 2.0.1 #######
 
-def currency_converter(money:tuple, currency_to:str, currency_dict: dict):
+def get_changerates(currency_to: str, currency_dict: dict):
+    
+    #converting currency_to in its ISO format
+    currency_to = currency_dict[currency_to]
+
+    #list of needed currency (already in ISO format)
+    neededcurrency_lst = list(set(currency_dict.values()))
+    
+    #initializing change_rates dictionary
+    change_rates = dict.fromkeys(neededcurrency_lst)
+
+    for currency_from in neededcurrency_lst:
+
+        #getting all the change rates for this currency
+        response = requests.get('https://open.er-api.com/v6/latest/' + currency_from)
+            
+        if response.ok:  # if the request doesn't raise an error
+            #get data 
+            data = response.json()
+
+            #make sure there isn't another error (elseway the rates won't be there)
+            if data['result'] != 'error':
+                #get change rates dictionary
+                change_rates_now = data['rates']
+                change_rate = change_rates_now[currency_to]
+                change_rates.update({currency_from: change_rate})
+    
+        time.sleep(1)
+        
+
+    return change_rates
+
+
+def currency_converter(money:tuple, currency_to:str, currency_dict: dict, change_rates_dict: dict ):
+    
     currency_from, numeric_value = money
 
-    #making sure we can convert the currency we are given into the one desired
-    # (they both have to be in currency_dict)
-    if (not currency_to in currency_dict) and (not currency_from in currency_dict):
-        print(f'Unable to convert this currency')
-        return
-    
-    #making sure the "output currency" is a abbreviation and not a symbol
-    currency_to = currency_dict[currency_to]
+    #making sure the "input currency" is in ISO format
     currency_from = currency_dict[currency_from]
 
-    
-    response = requests.get('https://open.er-api.com/v6/latest/' + currency_from)
-    time.sleep(1)
-
-    if response.ok:  # if the request doesn't raise an error
-        #get data 
-        data = response.json()
-
-        #make sure there isn't another error (elseway the rates won't be there)
-        if data['result'] != 'error':
-            #get change rates dictionary
-            change_rates = data['rates']
-
-        #return converted numeric value without corresponding currency (we know which one it is)
-        return int(numeric_value)*change_rates[currency_to]
+    #return converted numeric value without corresponding currency (we know which one it is)
+    return int(numeric_value)*change_rates_dict[currency_to]
 
 
 def get_max_currency(lst):
