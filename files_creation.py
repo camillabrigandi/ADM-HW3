@@ -14,7 +14,6 @@ stopw = stopwords.words('english')
 msc_degrees['description_clean'] = msc_degrees.description.apply(lambda row: nltk.word_tokenize(row)).apply(lambda row: ([nltk.PorterStemmer().stem(word) for word in row if (word.isalnum() and (not word in stopw))])) 
 
 
-
 #VOCABULARY FILE
 # creating vocabulary lists as a tool to write the vocabulary file 
 vocabulary_list = sorted(list(Counter(reduce(lambda x, y: x+y, msc_degrees.description_clean.values)).keys()))
@@ -55,7 +54,7 @@ invidx_file.close()
 
 
 
-# INVERTED INDEX FILE WITH TFIDF
+# INVERTED INDEX FILE (WITH TFIDF)
 # calculating tfidf 
 tfidf = TfidfVectorizer(lowercase=False, tokenizer=lambda text: text)  #input='content', lowercase=False, tokenizer=lambda text: text
 tfidf_matrix = tfidf.fit_transform(msc_degrees.description_clean)
@@ -76,3 +75,64 @@ with open('inverted_index_tfidf.pkl', 'wb') as tfidf_file:
     pickle.dump(inverted_index_tfidf, tfidf_file)
 
 tfidf_file.close()
+
+
+#ISO CURRENCY DICTIONARY 
+ISO_currency_dict = {
+    '$' : 'USD',
+    '£' : 'GBP',
+    '¥': 'JPY',
+    '֏': 'AMD',
+    '؋': 'AFN',
+    '৲': 'BDT',
+    '৳': 'BDT',
+    '৻': 'VES',
+    '૱': 'KHR',
+    '௹': 'LKR',
+    '฿': 'THB',
+    '៛': 'KHR',
+    'euro' : 'EUR',
+    'euros' : 'EUR',
+    'Euro' : 'EUR',
+    'Euros' : 'EUR',
+    'Eur' : 'EUR',
+    'US$' : 'USD',
+    'USD': 'USD',
+    'EUR': 'EUR',
+    'GBP': 'GBP',
+    'JPY': 'JPY',
+    'INR': 'INR',
+    'AUD': 'AUD',
+    'CAD': 'CAD',
+    'HK': 'HKD',
+    'ISK': 'ISK',
+    'RMB': 'CNY',
+    'SEK': 'SEK',
+    'CHF': 'CHF',
+    
+    #'\u20a0-\u20bd': below
+    '₡': 'CRC', #Costa Rican Colón
+    '₤': 'ITL', # Italian Lira
+    '₥': 'DEM', # German Mark
+    '₦': 'NGN', # Nigerian Naira
+    '₧': 'ESP', # Spanish Peseta
+    '₨': 'INR', # Indian Rupee
+    '₩': 'KRW', # South Korean Won
+    '₪': 'ILS', # Israeli New Shekel
+    '₫': 'VND', # Vietnamese Đồng
+    '€': 'EUR', # Euro
+    '₭': 'LAK', # Lao Kip
+    '₮': 'MNT', # Mongolian Tugrik
+    '₯': 'GRD', # Greek Drachma
+    '₱': 'PHP', # Philippine Peso
+    '₲': 'PYG', # Paraguayan Guarani
+    '₴': 'UAH', # Ukrainian Hryvnia
+    '₵': 'GHS', # Ghanaian Cedi    
+}
+
+    
+# save dictionary to ISOcurrency.pkl file
+with open('ISOcurrency.pkl', 'wb') as iso_file:
+    pickle.dump(ISO_currency_dict, iso_file)
+
+iso_file.close()
