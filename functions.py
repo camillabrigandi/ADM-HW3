@@ -249,6 +249,7 @@ def preprocess_query(query):
 
 
 def get_documents_conjunctive_query(query: list, vocabulary_dict: dict, inverted_index : dict):
+    
     #checking if all the query's words are in the vocabulary
     query_not_voc = [word for word in query if word not in vocabulary_dict]
 
@@ -278,19 +279,11 @@ def get_documents_conjunctive_query(query: list, vocabulary_dict: dict, inverted
 
 #### 2.2
 def search_engine_tfidf(query: list, tfidf_invidx_dict: dict, vocabulary: dict, k = 10 ):
-    # check if there are any words in the query that aren't in the vocabulary
-    i=0
-    while query[i] in vocabulary and i < len(query) -1 :
-        i+=1
-    
-    if i != len(query) - 1:
-        return []
 
-    #if all the words in the query are in the vocabulary: 
-    #1. retrieving all the documents containing all the words in the query, using the function of the first search engine
+    # retrieving all the documents containing all the words in the query, using the function of the first search engine
     sat_query_docs = get_documents_conjunctive_query(query, vocabulary, tfidf_invidx_dict) 
 
-    #2. check if there are any documents at all that satisfy the query
+    # check if there are any documents at all that satisfy the query
     if sat_query_docs == []:
         return []
 
@@ -306,7 +299,7 @@ def search_engine_tfidf(query: list, tfidf_invidx_dict: dict, vocabulary: dict, 
     tfidf = TfidfVectorizer()  
     query_tfidf = np.array(tfidf.fit_transform([' '.join(query)]).todense())
 
-    # compute cosine similarities between the query and the documents: cambia e normalizza in maniera corretta, guarda quaderno
+    # compute cosine similarity between the query and the documents: cambia e normalizza in maniera corretta, guarda quaderno
     cossim_vec = cosine_similarity(docs_tfidf, query_tfidf)
     
     #return top-k documents using heap structure

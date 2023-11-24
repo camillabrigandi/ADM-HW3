@@ -52,8 +52,6 @@ with open('inverted_index.pkl', 'wb') as invidx_file:
 invidx_file.close()
 
 
-
-
 # INVERTED INDEX FILE (WITH TFIDF)
 # calculating tfidf 
 tfidf = TfidfVectorizer(lowercase=False, tokenizer=lambda text: text)  #input='content', lowercase=False, tokenizer=lambda text: text
