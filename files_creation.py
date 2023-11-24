@@ -69,7 +69,7 @@ invidx_file.close()
 #creating inverted index (with tfidf) dictionary
 inverted_index_tfidf = dict()
 for term_id in inverted_index:
-    inverted_index_tfidf.update( { term_id: dict([ (doc_id, tfidf_matrix[(doc_id -1 , term_id)] ) for doc_id in inverted_index[term_id] ]) } )
+    inverted_index_tfidf.update( { term_id: dict([ (doc_id, tfidf_matrix[(doc_id , term_id)] ) for doc_id in inverted_index[term_id] ]) } )
 
 #saving the dictionary as a pickle file
 with open('inverted_index_tfidf.pkl', 'wb') as tfidf_file:
