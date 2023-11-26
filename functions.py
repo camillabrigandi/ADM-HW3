@@ -299,9 +299,8 @@ def search_engine_tfidf(query: list, tfidf_invidx_dict: dict, vocabulary: dict, 
     tfidf = TfidfVectorizer()  
     query_tfidf = np.array(tfidf.fit_transform([' '.join(query)]).todense())
 
-    # compute cosine similarity between the query and the documents: cambia e normalizza in maniera corretta, guarda quaderno
-    #cossim_vec = cosine_similarity(docs_tfidf, query_tfidf)
-    cossim_vec = docs_tfidf @ query_tfidf.T
+    # compute cosine similarity between the query and the documents: scalar product, see explaination in notebook
+    cossim_vec = docs_tfidf @ query_tfidf.T 
 
 
     #return top-k documents using heap structure
